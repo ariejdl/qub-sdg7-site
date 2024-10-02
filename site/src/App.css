@@ -1,0 +1,55 @@
+html {}
+
+.bento-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.bento-box .action-item {
+  background: #D9D9D9;
+  min-height: 40px;
+  stroke: 2px solid #BFC3C9;
+  border-radius: 20px;
+  box-shadow: inset 0 2px 40px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.bento-box .row {
+  display: flex;
+  gap: 10px;
+}
+
+.bento-box .row div {
+  flex: 1;
+}
+
+.bento-box .div1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.bento-box .div2 {
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+.bento-box .div3 {
+  grid-area: 1 / 3 / 2 / 5;
+}
+
+.bento-box .div4 {
+  grid-area: 2 / 3 / 3 / 5;
+}
+
+.bento-box .div5 {
+  grid-area: 3 / 3 / 4 / 5;
+}
+
+.bento-box .div6 {
+  grid-area: 3 / 1 / 5 / 3;
+}
+
+.bento-box .div7 {
+  grid-area: 4 / 3 / 5 / 5;
+}

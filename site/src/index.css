@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  background: linear-gradient(180deg, rgba(176,176,224,1) 0%, rgba(193,206,231,1) 28%, rgba(255,255,255,1) 100%);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-area {
+  background: white;
+  margin: auto;
+  margin-top: 20px;
+  width: 600px;
+  padding: 10px;
+}
+
+.heading {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+}
+
+.jumbo {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .content-area {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .content-area {
+    width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content-area {
+    width: 1000px;
+  }
 }
