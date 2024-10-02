@@ -30,29 +30,18 @@ export const HomePage = () => {
       <br />
 
       <div className="bento-box heading">
-        <Link to="/goal-overview" className="div1 action-item">i. Overview</Link>
-        <div className="div2 action-item">2</div>
-        <div className="div3 action-item">3</div>
-        <div className="div4 action-item">4</div>
-        <div className="div5 action-item">5</div>
+        <Link to="/goal-overview" className="div1 action-item">Overview</Link>
+        <Link to="/our-progress" className="div2 action-item">Progress</Link>
+        <Link to="/three-pillars" className="div3 action-item">Three Pillars</Link>
+        <Link to="/business-benefits" className="div4 action-item">Business Benefits</Link>
+        <Link to="/recommendations" className="div5 action-item">Recommendations</Link>
         <div className="div6 row">
-          <div className="action-item">6.1</div>
-          <div className="action-item">6.2</div>
-          <div className="action-item">6.3</div>
+          <Link to="/best-practice" className="action-item">Best Practice </Link>
+          <Link to="/partnerships" className="action-item">Organisation Partnerships</Link>
+          <Link to="/renewable-energy" className="action-item">Renewable Energy</Link>
         </div>
-        <div className="div7 action-item">7</div>
+        <Link to="/quiz" className="div7 action-item">Quiz</Link>
       </div>
     </>
   );
 };
-
-/*
-    path: "/our-progress",
-    path: "/renewable-energy",
-    path: "/three-pillars",
-    path: "/business-benefits",
-    path: "/recommendations",
-    path: "/best-practice",
-    path: "/quiz",
-    path: "/partnerships",
-  */
