@@ -30,6 +30,17 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 - navigation
   - test urls work
 - footnotes
+- test other browsers
+- animate 2d graphics
+- images/genAI/unsplash
+  - halftone background image?
+  - feint bootstrap electricity icon
+- some CSS animations, e.g. for text and buttons
+
+# time permitting
+- nice 3d blob
+- og links
+- more mobile friendliness
 
 ## Design
 

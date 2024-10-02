@@ -19,14 +19,19 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #111;
 }
 
 .content-area {
   background: white;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 600px;
-  padding: 10px;
+  position: relative;
+}
+
+.content-wrapper {
+  padding: 30px;
 }
 
 .heading {
@@ -35,10 +40,30 @@ body {
 }
 
 .jumbo {
-  font-size: 4rem;
-  line-height: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+
+  font-size: 0.8rem;
+}
+
+footer {
+  margin-top: 40px;
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
+.details {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 
 @media only screen and (min-width: 800px) {
   .content-area {
@@ -50,10 +75,24 @@ body {
   .content-area {
     width: 900px;
   }
+
+  .jumbo {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .content-wrapper {
+    padding: 40px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .content-area {
     width: 1000px;
   }
+  
 }
