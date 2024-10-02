@@ -40,10 +40,6 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 - some CSS animations, e.g. for text and buttons
 
 # time permitting
-- nice 3d blob
-  - box - https://codesandbox.io/p/sandbox/rrppl0y8l4?file=%2Fsrc%2FApp.js%3A29%2C11
-  - https://codesandbox.io/p/sandbox/pj7zjq?file=%2Fsrc%2FApp.js%3A20%2C1
-  - distort - https://codesandbox.io/p/sandbox/l03yb?file=%2Fsrc%2FApp.js%3A14%2C6-14%2C10
 - og links
 - more mobile friendliness
 

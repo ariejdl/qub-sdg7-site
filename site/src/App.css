@@ -1,0 +1,38 @@
+
+/* Define the rotation animation */
+@keyframes slowRotate {
+  from {
+    transform: rotate(20deg) scale(1.5);
+  }
+  to {
+    transform: rotate(380deg) scale(1.5); /* Rotates 360 + 20 degrees */
+  }
+}
+
+.rotating-mesh {
+  position: absolute;
+  top: -40px;
+  left: 360px;
+  opacity: 0.5;
+  animation: slowRotate 100s linear infinite; /* Adjust the duration for speed */
+}
+
+/* Define the scaling animation */
+@keyframes pulse {
+  0% {
+    transform: rotate(30deg) scale(0.8);
+  }
+  50% {
+    transform: rotate(30deg) scale(1.2); /* Enlarges to 1.2 times the original size */
+  }
+  100% {
+    transform: rotate(30deg) scale(0.8); /* Returns to the original scale */
+  }
+}
+
+.pulsing-mesh {
+  position: absolute;
+  top: 40px;
+  left: -40px;
+  animation: pulse 10s ease-in-out infinite; /* Adjust the duration for speed */
+}

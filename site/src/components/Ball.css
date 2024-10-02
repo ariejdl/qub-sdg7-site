@@ -1,0 +1,13 @@
+
+.ball-holder {
+  opacity: 0;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  
+  transition: opacity 500ms ease-in-out;
+}
+
+.ball-holder.loaded {
+  opacity: 0.98;
+}

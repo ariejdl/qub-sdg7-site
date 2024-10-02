@@ -40,7 +40,7 @@
   box-shadow: inset 0 2px 40px rgba(0,0,0,0.1);
   padding: 10px;
   cursor: pointer;
-  transition: 200ms ease-in-out box-shadow;
+  transition: box-shadow 200ms ease-in-out;
 
   font-size: 1.8rem;
   line-height: 1.8rem;
