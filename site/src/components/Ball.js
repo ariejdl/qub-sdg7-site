@@ -51,8 +51,6 @@ export function Scene3D({ large=true }) {
     setLoaded(true);
   }, [])
 
-  console.log(loaded)
-
   const shadowSize = 80;
   const shadowOpacity = 0.1;
 

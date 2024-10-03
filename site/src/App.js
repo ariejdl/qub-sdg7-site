@@ -1,6 +1,7 @@
 import './App.css';
 import {
   createBrowserRouter,
+  Link,
   RouterProvider,
 } from "react-router-dom";
 
@@ -8,6 +9,7 @@ import { HomePage } from "./pages/Home";
 import { Scene3D } from "./components/Ball";
 import { useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { GOalOverview } from './pages/GoalOverview';
 
 const ErrorPage = ({ text = "Page Not Found" }) => {
   return <div>
@@ -16,10 +18,24 @@ const ErrorPage = ({ text = "Page Not Found" }) => {
   </div>
 }
 
-const PageWrapper = ({ Page, notFound=false }) => {
+const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
 
   const location = useLocation();
   const [largeBall, setLargeBall] = useState(false);
+
+  const [menuOpen, setMenuOpen] = useState(true);
+
+  useEffect(() => {
+    if (menuOpen) {
+      const closeFn = () => {
+        setMenuOpen(false);
+      }
+      document.body.addEventListener('click', closeFn);
+      return () => {
+        document.body.removeEventListener('click', closeFn);
+      }
+    }
+  }, [menuOpen]);
 
   useEffect(() => {
     if (location.pathname === "/" || notFound) {
@@ -29,10 +45,12 @@ const PageWrapper = ({ Page, notFound=false }) => {
     }
   }, [location.pathname, notFound])
 
+  console.log(menuOpen)
+
   return (
     <>
       <div className="content-area">
-        <Scene3D large={largeBall} />
+        { largeBall ? <Scene3D large={largeBall} /> : null }
         <div className="details" style={{ zIndex: -1 }}>
           <img
             src="/blocks.svg"
@@ -42,6 +60,28 @@ const PageWrapper = ({ Page, notFound=false }) => {
           <img src="/grid.svg" className="rotating-mesh" />
         </div>
         <div className="content-wrapper">
+          {
+            secondary ?
+              <>
+              <div style={{ display: 'flex', gap: 10, marginLeft: -10 }}>
+                <div onClick={(e) => {
+                  setMenuOpen(v => !v)
+                  e.stopPropagation()
+                }} style={{ marginTop: 16, height: 30, width: 30, padding: 5, cursor: 'pointer' }}>
+                  <img src="hamburger.png" width="30" />
+                </div>
+                <Link className="no-link-style" to="/"><h1 className="heading" style={{ marginTop: 10, marginBottom: 10 }}>Affordable and clean energy, SDG7</h1></Link>
+              </div>
+              {
+                menuOpen ?
+                  <div>
+                    menu items
+                  </div> :  null
+              }
+              <div style={{ position: 'absolute', left: 10, right: 10, height: 4, background: 'rgba(0,0,0,0.2)' }}></div>
+              </>
+              : null
+          }
           { Page }
           <footer>Group 3 - LFE8031, QUB 2024</footer>
         </div>
@@ -58,39 +98,39 @@ const router = createBrowserRouter([
   },
   {
     path: "/goal-overview",
-    element: <PageWrapper Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<GOalOverview />} />,
   },
   {
     path: "/our-progress",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
   {
     path: "/renewable-energy",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
   {
     path: "/three-pillars",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
   {
     path: "/business-benefits",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
   {
     path: "/recommendations",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
   {
     path: "/best-practice",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
   {
     path: "/quiz",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
   {
     path: "/partnerships",
-    element: <ErrorPage text="Page not ready" />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
   },
 ]);
 

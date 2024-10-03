@@ -32,6 +32,7 @@ body {
 
 .content-wrapper {
   padding: 30px;
+  padding-top: 10px;
 }
 
 .heading {
@@ -40,7 +41,7 @@ body {
 }
 
 .jumbo {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
   font-size: 3rem;
   line-height: 3rem;
@@ -65,6 +66,11 @@ footer {
   left: 0px;
 }
 
+.no-link-style {
+  color: #111;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 800px) {
   .content-area {
     width: 80%;
@@ -87,6 +93,7 @@ footer {
 
   .content-wrapper {
     padding: 40px;
+    padding-top: 10px;
   }
 }
 
