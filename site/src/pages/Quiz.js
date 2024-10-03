@@ -1,13 +1,66 @@
 
+import "./Quiz.css";
+
+const QUIZ_DATA = {
+  question: "1 Lorem ipsum abc def?",
+  options: [
+    {
+      value: 'abc',
+      next: {
+        question: "1.1 Lorem",
+        options: []
+      }
+    },
+    {
+      value: 'def',
+      next: {
+        question: "1.2 Lorem",
+        options: []
+      }
+    },
+    {
+      value: 'ghi',
+      next: {
+        question: "1.2 Lorem",
+        options: []
+      }
+    }
+  ]
+}
+
 export const QuizPage = () => {
 
   return <div>
 
     <h1 className="heading">Quiz</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur<sup>1</sup> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <p>Lorem ipsum dolor sit amet, consectetur<sup>1</sup> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim?</p>
+    
+    <br />
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis<sup>2</sup> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <div className="radio-group">
+        <label>
+            Option 1
+            <input type="radio" name="option" value="1" />
+            <span className="checkmark"></span>
+        </label>
+
+        <label>
+            Option 2
+            <input type="radio" name="option" value="2" />
+            <span className="checkmark"></span>
+        </label>
+
+        <label>
+            Option 3
+            <input type="radio" name="option" value="3" />
+            <span className="checkmark"></span>
+        </label>
+    </div>
+
+    <br />
+
+    <button>Next</button>
 
     <hr />
 
