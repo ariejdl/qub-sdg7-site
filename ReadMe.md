@@ -27,9 +27,11 @@ terraform destroy -var-file vars.tfvars
 S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-aws-with-terraform-76819a12d412> - <https://github.com/riboseinc/terraform-aws-s3-cloudfront-website/tree/dd85d7f6218190b5a1a9298af136311c2ef8dd14>%
 
 # TODO:
-- quiz
-- observable HQ integration
-- navigation
+- *quiz
+- *observable HQ integration
+- *sample pages
+- *youtube integration
+- *navigation
   - test urls work
 - footnotes
 - test other browsers
@@ -38,10 +40,13 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
   - halftone background image?
   - feint bootstrap electricity icon
 - some CSS animations, e.g. for text and buttons
+- *record various chatGPT prompts for references
+  - https://students.unimelb.edu.au/academic-skills/resources/academic-integrity/acknowledging-AI-tools-and-technologies
 
 # time permitting
 - og links
 - more mobile friendliness
+- small shadow for bubble
 
 ## Design
 
@@ -49,6 +54,7 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 - https://www.youtube.com/watch?v=F74c_1nwVbY
   - gradients
   - bento-box aesthetic (home page?)
+  - https://cssgradient.io
 - React Three fiber
 - Google web font
   - display font

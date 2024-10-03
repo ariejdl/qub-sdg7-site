@@ -31,8 +31,8 @@ const PageWrapper = ({ Page, notFound=false }) => {
 
   return (
     <>
-      <Scene3D large={largeBall} />
       <div className="content-area">
+        <Scene3D large={largeBall} />
         <div className="details" style={{ zIndex: -1 }}>
           <img
             src="/blocks.svg"

@@ -53,14 +53,28 @@ export function Scene3D({ large=true }) {
 
   console.log(loaded)
 
+  const shadowSize = 80;
+  const shadowOpacity = 0.1;
+
   return (
-    <div style={{ width: 300, height: 300, position: 'absolute' }} className={"ball-holder " + (loaded ? " loaded " : "") + (large ? "" : "small")}>
+    <div style={{ width: 300, height: 300, transform: large ? undefined : 'scale(0.33)' }} className={"ball-holder " + (loaded ? " loaded " : "") + (large ? "" : "small")}>
       <Canvas>
         <ambientLight intensity={5} />
         <MovingPointLight />
-        <Ball isSmall={!large} />
-        <OrthographicCamera makeDefault zoom={100} position={[0, 0, 5]} />
+        <Ball />
+        <OrthographicCamera makeDefault zoom={100} position={[0.5, 0.5, 5]} />
       </Canvas>
+      <div style={{
+        position: 'absolute',
+        top: `calc(50% - ${shadowSize}px/2 + 20px)`,
+        left: `calc(50% - ${shadowSize}px/2)`,
+        zIndex: -1,
+        borderRadius: '50%',
+        width: shadowSize,
+        height: shadowSize,
+        background: `rgba(0,0,0,${shadowOpacity})`,
+        boxShadow: `0 0 10px 40px rgba(0,0,0,${shadowOpacity})`
+      }}></div>
     </div>
   )
 }

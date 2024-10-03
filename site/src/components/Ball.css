@@ -1,8 +1,9 @@
 
 .ball-holder {
+  position: absolute;
   opacity: 0;
-  top: 20px;
-  right: 20px;
+  top: -100px;
+  right: -100px;
   z-index: 1;
   
   transition: opacity 500ms ease-in-out;
