@@ -29,7 +29,6 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 # TODO:
 - *quiz
 - test other browsers
-- animate 2d graphics
 - images/genAI/unsplash
   - halftone background image?
   - feint bootstrap electricity icon
@@ -40,7 +39,6 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 # time permitting
 - og links
 - more mobile friendliness
-- small shadow for bubble
 
 ## Design
 
