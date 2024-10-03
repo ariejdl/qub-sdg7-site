@@ -23,7 +23,7 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
   const location = useLocation();
   const [largeBall, setLargeBall] = useState(false);
 
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     if (menuOpen) {
@@ -70,12 +70,29 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
                 }} style={{ marginTop: 16, height: 30, width: 30, padding: 5, cursor: 'pointer' }}>
                   <img src="hamburger.png" width="30" />
                 </div>
-                <Link className="no-link-style" to="/"><h1 className="heading" style={{ marginTop: 10, marginBottom: 10 }}>Affordable and clean energy, SDG7</h1></Link>
+                <Link className="no-link-style title-link" to="/"><h1 className="heading" style={{ marginTop: 10, marginBottom: 10 }}>Affordable and clean energy, SDG7</h1></Link>
               </div>
               {
                 menuOpen ?
-                  <div>
-                    menu items
+                  <div className="main-links">
+                    <div className="column">
+                      <h3>General</h3>
+                      <Link to="/goal-overview" className="link-item">Overview</Link>
+                      <Link to="/our-progress" className="link-item">Progress</Link>
+                      <Link to="/three-pillars" className="link-item">Three Pillars</Link>
+                    </div>
+                    <div className="column">
+                      <h3>Applications</h3>
+                      <Link to="/business-benefits" className="link-item">Business Benefits</Link>
+                      <Link to="/recommendations" className="link-item">Recommendations</Link>
+                      <Link to="/best-practice" className="link-item">Best Practice</Link>
+                      <Link to="/partnerships" className="link-item">Partnerships</Link>
+                      <Link to="/renewable-energy" className="link-item">Renewable Energy</Link>
+                    </div>
+                    <div className="column">
+                      <h3>Review</h3>
+                      <Link to="/quiz" className="link-item">Quiz</Link>
+                    </div>
                   </div> :  null
               }
               <div style={{ position: 'absolute', left: 10, right: 10, height: 4, background: 'rgba(0,0,0,0.2)' }}></div>

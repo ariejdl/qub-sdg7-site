@@ -31,8 +31,6 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 - *observable HQ integration
 - *sample pages
 - *youtube integration
-- *navigation
-  - test urls work
 - footnotes
 - test other browsers
 - animate 2d graphics
