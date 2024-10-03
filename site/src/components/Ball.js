@@ -22,7 +22,7 @@ function Ball({ isSmall = false }) {
       <sphereGeometry rotateY={0.5} args={[0.8 * (isSmall ? 0.33 : 1), 64, 64]} />
       {/*<meshStandardMaterial color="skyblue" />*/}
       <MeshDistortMaterial ref={ref} speed={5}>
-        <GradientTexture stops={[0, 0.3, 0.6, 0.9, 1]} colors={['#B0E0B9', '#7b8db0', '#a1b1cf', '#ffffff']} size={100} />
+        <GradientTexture stops={[0, 0.3, 0.6, 0.9, 1]} colors={['#B0E0B9', '#7b7eb0', '#a1b1cf', '#ffffff']} size={100} />
       </MeshDistortMaterial>
     </mesh>
   )

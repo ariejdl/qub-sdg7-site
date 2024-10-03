@@ -47,8 +47,9 @@
 }
 
 .hamburger-menu {
-  opacity: 0.9;
+  opacity: 0.8;
   cursor: pointer;
+  transition: opacity 200ms ease-in-out;
 }
 
 .hamburger-menu:hover {

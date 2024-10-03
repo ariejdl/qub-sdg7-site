@@ -33,6 +33,7 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
   - halftone background image?
   - feint bootstrap electricity icon
 - some CSS animations, e.g. for text and buttons
+  - https://tobiasahlin.com/moving-letters/
 - *record various chatGPT prompts for references
   - https://students.unimelb.edu.au/academic-skills/resources/academic-integrity/acknowledging-AI-tools-and-technologies
 
