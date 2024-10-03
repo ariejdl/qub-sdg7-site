@@ -28,10 +28,6 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 
 # TODO:
 - *quiz
-- *observable HQ integration
-- *sample pages
-- *youtube integration
-- footnotes
 - test other browsers
 - animate 2d graphics
 - images/genAI/unsplash

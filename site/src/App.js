@@ -9,7 +9,10 @@ import { HomePage } from "./pages/Home";
 import { Scene3D } from "./components/Ball";
 import { useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { GOalOverview } from './pages/GoalOverview';
+import { GoalOverview } from './pages/GoalOverview';
+import { ProgressPage } from './pages/Progress';
+import { ThreePillarsPage } from './pages/ThreePillars';
+import { QuizPage } from './pages/Quiz';
 
 const ErrorPage = ({ text = "Page Not Found" }) => {
   return <div>
@@ -45,8 +48,6 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
     }
   }, [location.pathname, notFound])
 
-  console.log(menuOpen)
-
   return (
     <>
       <div className="content-area">
@@ -67,7 +68,7 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
                 <div onClick={(e) => {
                   setMenuOpen(v => !v)
                   e.stopPropagation()
-                }} style={{ marginTop: 16, height: 30, width: 30, padding: 5, cursor: 'pointer' }}>
+                }} className="hamburger-menu" style={{ marginTop: 16, height: 30, width: 30, padding: 5 }}>
                   <img src="hamburger.png" width="30" />
                 </div>
                 <Link className="no-link-style title-link" to="/"><h1 className="heading" style={{ marginTop: 10, marginBottom: 10 }}>Affordable and clean energy, SDG7</h1></Link>
@@ -115,39 +116,39 @@ const router = createBrowserRouter([
   },
   {
     path: "/goal-overview",
-    element: <PageWrapper secondary Page={<GOalOverview />} />,
+    element: <PageWrapper secondary Page={<GoalOverview />} />,
   },
   {
     path: "/our-progress",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<ProgressPage />} />,
   },
   {
     path: "/renewable-energy",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Renewable Energy - Page not ready" />} />,
   },
   {
     path: "/three-pillars",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<ThreePillarsPage />} />,
   },
   {
     path: "/business-benefits",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Business Benefits - Page not ready" />} />,
   },
   {
     path: "/recommendations",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Recommendations - Page not ready" />} />,
   },
   {
     path: "/best-practice",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Best Practice - Page not ready" />} />,
   },
   {
     path: "/quiz",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<QuizPage />} />,
   },
   {
     path: "/partnerships",
-    element: <PageWrapper secondary Page={<ErrorPage text="Overview - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<ErrorPage text="Partnerships - Page not ready" />} />,
   },
 ]);
 

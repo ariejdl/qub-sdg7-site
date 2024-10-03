@@ -46,6 +46,15 @@
   text-decoration: underline;
 }
 
+.hamburger-menu {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.hamburger-menu:hover {
+  opacity: 1;
+}
+
 .main-links {
   display: flex;
   padding-bottom: 20px;
@@ -70,4 +79,16 @@
 
 .main-links .column a:hover {
   text-decoration: underline;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+ul.unstyled {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
 }
