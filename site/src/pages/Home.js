@@ -7,23 +7,6 @@ export const HomePage = () => {
 
   useEffect(() => {
 
-    /*
-
-      <h1 class="ml7">
-        <span class="text-wrapper">
-          <span class="letters">
-            Reality is broken is broken is broken</span>
-        </span>
-      </h1>
-      */
-
-      /*
-    var textWrapper = document.querySelector('.ml7 .words');
-    console.log('*', textWrapper)
-    console.log(textWrapper.textContent)
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='word'>$&</span>");
-    */
-
     anime.timeline()
       .add({
         targets: '.ml7 .word',
@@ -72,13 +55,13 @@ export const HomePage = () => {
       <br />
 
       <div className="bento-box heading anim-in">
-        <Link to="/goal-overview" className="div1 action-item">
+        <Link to="/goal-overview" className="div1 action-item focus">
           Overview
-          <div className="fancy-circle fancy-gradient" style={{ right: -40, bottom: -40, position: 'absolute' }} />
+          <img src="/shapes/9.png"  width="140" style={{ right: -20, bottom: -40, position: 'absolute' }} />
         </Link>
         <Link to="/our-progress" className="div2 action-item">
           Progress
-          <img src="/shapes/2.png"  width="180" style={{ right: -20, bottom: -40, position: 'absolute' }} />
+          <img src="/shapes/2.png"  width="160" style={{ right: -20, bottom: -40, position: 'absolute' }} />
         </Link>
         <Link to="/three-pillars" className="div3 action-item">
           Three Pillars
