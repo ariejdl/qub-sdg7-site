@@ -9,13 +9,10 @@ const START_ID = QUIZ_DATA[0].id
 
 export const QuizPage = () => {
 
-  const START_ID = QUIZ_DATA[0].id
   const [currentId, setCurrentId] = useState(START_ID);
   const [currentOption, setCurrentOption] = useState(undefined);
   const [resultInfo, setResult] = useState("");
   const data = QUIZ_DATA.filter(d => d.id === currentId)[0];
-
-  console.log(data)
 
   return <div>
 

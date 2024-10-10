@@ -27,8 +27,7 @@ terraform destroy -var-file vars.tfvars
 S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-aws-with-terraform-76819a12d412> - <https://github.com/riboseinc/terraform-aws-s3-cloudfront-website/tree/dd85d7f6218190b5a1a9298af136311c2ef8dd14>%
 
 # TODO:
-- please view in chrome or firefox notice
-- *quiz
+- please view in chrome or firefox notice [outside of React!]
 - test other browsers]
 - safari router bug
 - images/genAI/unsplash

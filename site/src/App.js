@@ -41,14 +41,14 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
   }, [menuOpen]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     document.querySelectorAll(".anim-in").forEach((el, i) => {
       setTimeout(() => {
         el.classList.add('loaded');
       }, i * 50);
     })
-  }, [location.pathname, notFound])
 
-  useEffect(() => {
     if (location.pathname === "/" || notFound) {
       setLargeBall(true)
     } else {
@@ -63,10 +63,8 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
     }
     if (menuOpen) {
       el.classList.add("show");
-      el.style['display'] = 'block';
     } else {
       el.classList.remove("show");
-      setTimeout(() => el.style['display'] = 'none', 300)
     }
   }, [menuOpen])
 

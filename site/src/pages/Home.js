@@ -80,7 +80,7 @@ export const HomePage = () => {
             Best Practice
             <img alt="decorative graphic" src="/shapes/6.png"  width="80" style={{ right: 20, bottom: -10, position: 'absolute' }} />
           </Link>
-          <Link to="/partnerships" className="action-item">
+          <Link to="/partnerships" className="action-item" style={{ flex: 2 }}>
             Organisation Partnerships
             <img alt="decorative graphic" src="/shapes/3.png"  width="120" style={{ right: -10, bottom: -20, position: 'absolute' }} />
           </Link>
