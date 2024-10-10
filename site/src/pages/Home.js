@@ -57,42 +57,42 @@ export const HomePage = () => {
       <div className="bento-box heading anim-in">
         <Link to="/goal-overview" className="div1 action-item focus">
           Overview
-          <img src="/shapes/9.png"  width="140" style={{ right: -20, bottom: -40, position: 'absolute' }} />
+          <img alt="decorative graphic" src="/shapes/9.png"  width="140" style={{ right: -20, bottom: -40, position: 'absolute' }} />
         </Link>
         <Link to="/our-progress" className="div2 action-item">
           Progress
-          <img src="/shapes/2.png"  width="160" style={{ right: -20, bottom: -40, position: 'absolute' }} />
+          <img alt="decorative graphic" src="/shapes/2.png"  width="160" style={{ right: -20, bottom: -40, position: 'absolute' }} />
         </Link>
         <Link to="/three-pillars" className="div3 action-item">
           Three Pillars
-          <img src="/shapes/1.png"  width="180" style={{ right: -20, bottom: -20, position: 'absolute' }} />
+          <img alt="decorative graphic" src="/shapes/1.png"  width="180" style={{ right: -20, bottom: -20, position: 'absolute' }} />
         </Link>
         <Link to="/business-benefits" className="div4 action-item">
           Business Benefits
-          <img src="/shapes/8.png"  width="120" style={{ right: 20, bottom: 0, position: 'absolute' }} />
+          <img alt="decorative graphic" src="/shapes/8.png"  width="120" style={{ right: 20, bottom: 0, position: 'absolute' }} />
         </Link>
         <Link to="/recommendations" className="div5 action-item">
           Recommendations
-          <img src="/shapes/4.png"  width="100" style={{ right: 20, bottom: -20, position: 'absolute' }} />
+          <img alt="decorative graphic" src="/shapes/4.png"  width="100" style={{ right: 20, bottom: -20, position: 'absolute' }} />
         </Link>
         <div className="div6 row">
           <Link to="/best-practice" className="action-item">
             Best Practice
-            <img src="/shapes/6.png"  width="80" style={{ right: 20, bottom: -10, position: 'absolute' }} />
+            <img alt="decorative graphic" src="/shapes/6.png"  width="80" style={{ right: 20, bottom: -10, position: 'absolute' }} />
           </Link>
           <Link to="/partnerships" className="action-item">
             Organisation Partnerships
-            <img src="/shapes/3.png"  width="120" style={{ right: -10, bottom: -20, position: 'absolute' }} />
+            <img alt="decorative graphic" src="/shapes/3.png"  width="120" style={{ right: -10, bottom: -20, position: 'absolute' }} />
           </Link>
           <Link to="/renewable-energy" className="action-item">
             Renewable Energy
-            <img src="/shapes/8.png"  width="140" style={{ right: -20, bottom: -20, position: 'absolute' }} />
+            <img alt="decorative graphic" src="/shapes/8.png"  width="140" style={{ right: -20, bottom: -20, position: 'absolute' }} />
           </Link>
         </div>
         <Link to="/quiz" className="div7 action-item">
           Quiz
 
-          <img src="/shapes/5.png"  width="100" style={{ right: 20, bottom: -20, position: 'absolute' }} />
+          <img alt="decorative graphic" src="/shapes/5.png"  width="100" style={{ right: 20, bottom: -20, position: 'absolute' }} />
         </Link>
       </div>
     </>

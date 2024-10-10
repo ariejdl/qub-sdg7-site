@@ -5,7 +5,7 @@ import { OrthographicCamera } from '@react-three/drei'
 import * as THREE from 'three'
 import { useEffect, useRef, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { MeshDistortMaterial, GradientTexture, useCursor } from '@react-three/drei'
+import { MeshDistortMaterial, GradientTexture } from '@react-three/drei'
 
 import { useThree } from '@react-three/fiber'
 

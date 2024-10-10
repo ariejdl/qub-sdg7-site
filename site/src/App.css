@@ -57,12 +57,17 @@
 }
 
 .main-links {
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  z-index: 1;
   display: flex;
   padding-bottom: 20px;
-  background: rgba(0,0,0,0.05);
+  background: #f2f2f2;
   border-radius: 4px;
   margin-bottom: 10px;
   padding: 20px;
+  width: calc(100% - 100px);
 }
 
 .main-links .column {
@@ -100,12 +105,26 @@ ul.unstyled {
 .anim-in {
   opacity: 0;
   transform: translate(0, -10px);
-  
   transition: opacity 500ms ease-in-out,
               transform 500ms ease-in-out;
 }
 
 .anim-in.loaded {
   transform: translate(0, 0px);
+  opacity: 1;
+}
+
+
+.anim-in-fancy {
+  opacity: 0;
+  transform-origin: top left;
+  transform: translate(0, -10px) scale(0.9) rotateX(10deg) rotateY(10deg);
+  transition: opacity 200ms ease-in-out,
+              transform 300ms ease-in-out;
+}
+
+
+.anim-in-fancy.show {
+  transform: translate(0, 0px) scale(1) rotateX(0deg) rotateY(0deg);
   opacity: 1;
 }
