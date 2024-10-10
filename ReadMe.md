@@ -30,7 +30,7 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 - please view in chrome or firefox notice
 - *quiz
 - test other browsers]
-- safari bug
+- safari router bug
 - images/genAI/unsplash
   - halftone background image?
   - feint bootstrap electricity icon
@@ -41,8 +41,6 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 
 # time permitting
 - og links
-- more mobile friendliness
-- favicon
 
 ## Design
 

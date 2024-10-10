@@ -1,74 +1,95 @@
 
+import { useState } from "react";
 import "./Quiz.css";
 
+import { QUIZ_DATA } from "./QuizData";
+import { QUIZ_REFERENCES } from "./QuizReferences";
 
-// TODO
-const QUIZ_DATA = {
-  question: "1 Lorem ipsum abc def?",
-  options: [
-    {
-      value: 'abc',
-      next: {
-        question: "1.1 Lorem",
-        options: []
-      }
-    },
-    {
-      value: 'def',
-      next: {
-        question: "1.2 Lorem",
-        options: []
-      }
-    },
-    {
-      value: 'ghi',
-      next: {
-        question: "1.2 Lorem",
-        options: []
-      }
-    }
-  ]
-}
+const START_ID = QUIZ_DATA[0].id
 
 export const QuizPage = () => {
 
+  const START_ID = QUIZ_DATA[0].id
+  const [currentId, setCurrentId] = useState(START_ID);
+  const [currentOption, setCurrentOption] = useState(undefined);
+  const [resultInfo, setResult] = useState("");
+  const data = QUIZ_DATA.filter(d => d.id === currentId)[0];
+
+  console.log(data)
+
   return <div>
 
-    <h1 className="heading">Quiz</h1>
+    <h1 className="heading anim-in">Quiz</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur<sup>1</sup> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim?</p>
+    {
+      data?.question ? <><p>
+        { data.question }
+      </p>
+      <br />
+      </> : null
+    }
     
+    {
+      (!data && !resultInfo) ?
+        <p>Something went wrong!</p> : null
+    }
+
+    {
+      resultInfo ?
+        <>
+          <strong>Your Result:</strong>
+          <p className="result-info">{ resultInfo }</p>
+        </> :
+        <div className="radio-group" key={currentId}>
+          {
+            (data?.options || []).map((option, i) => {
+              return <label key={i + 1} onClick={() => {
+                if (option.result) {
+                  setCurrentOption(i + 1);
+                } else {
+                  setCurrentOption(i + 1)
+                }
+              }}>
+                    { option.value }
+                    <input type="radio" name="option" value={i + 1} />
+                    <span className="checkmark"></span>
+                </label>
+            })
+          }
+        </div>
+    }
+
+  
     <br />
 
-    <div className="radio-group">
-        <label>
-            Option 1
-            <input type="radio" name="option" value="1" />
-            <span className="checkmark"></span>
-        </label>
-
-        <label>
-            Option 2
-            <input type="radio" name="option" value="2" />
-            <span className="checkmark"></span>
-        </label>
-
-        <label>
-            Option 3
-            <input type="radio" name="option" value="3" />
-            <span className="checkmark"></span>
-        </label>
-    </div>
-
-    <br />
-
-    <button>Next</button>
+    { resultInfo ? <button onClick={() => {
+      setCurrentId(START_ID);
+      setResult("")
+    }}>Reset</button> : <>
+      <button onClick={() => {
+        if (data && currentOption) {
+          const option = data.options[currentOption - 1]
+          if (option.id) {
+            setCurrentId(option.id)
+          } else if (option.result) {
+            setResult(option.result)
+            setCurrentId(undefined);
+          } else {
+            throw new Error("invalid option")
+          }
+          setCurrentOption(undefined)
+        }
+      }}>Next</button>
+    </>}
 
     <hr />
 
-    <ul className="unstyled">
-      <li>1. XYZ, 123</li>
-      <li>2. ABC, 123</li>
+    <ul className="unstyled quiz-references">
+      {
+        QUIZ_REFERENCES.map((v, i) => {
+          return <li key={i}>{ v }</li>
+        })
+      }
     </ul>
 
   </div>

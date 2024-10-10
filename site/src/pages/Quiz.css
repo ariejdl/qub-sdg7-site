@@ -6,6 +6,15 @@
   gap: 5px;
 }
 
+.quiz-references li {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.result-info {
+  font-size: 1rem;
+}
+
 label {
   position: relative;
   padding-left: 35px;
