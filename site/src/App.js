@@ -33,12 +33,24 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
       const closeFn = () => {
         setMenuOpen(false);
       }
+      // for old safari?
+      if (!document.body || !document.body.addEventListener) {
+        return
+      }
       document.body.addEventListener('click', closeFn);
       return () => {
         document.body.removeEventListener('click', closeFn);
       }
     }
   }, [menuOpen]);
+
+  useEffect(() => {
+    document.querySelectorAll(".anim-in").forEach((el, i) => {
+      setTimeout(() => {
+        el.classList.add('loaded');
+      }, i * 50);
+    })
+  }, [location.pathname, notFound])
 
   useEffect(() => {
     if (location.pathname === "/" || notFound) {
@@ -61,6 +73,7 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
           <img src="/grid.svg" className="rotating-mesh" />
         </div>
         <div className="content-wrapper">
+          <div className="watermark-image"></div>
           {
             secondary ?
               <>

@@ -23,16 +23,33 @@ body {
 }
 
 .content-area {
+  position: relative;
   background: white;
   margin: auto;
   margin-top: 40px;
   width: 600px;
-  position: relative;
+  z-index: 0;
+}
+
+.watermark-image {
+  position: absolute;
+  background-image: url('/public/watermark.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  background-position: center right;
+  opacity: 0.15;
+  left: 50px;
+  top: 50px;
+  right: 0px;
+  height: 600px;
+  z-index: -1;
 }
 
 .content-wrapper {
   padding: 30px;
   padding-top: 10px;
+  z-index: 1;
 }
 
 .heading {

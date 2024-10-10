@@ -28,7 +28,8 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 
 # TODO:
 - *quiz
-- test other browsers
+- test other browsers]
+- safari bug
 - images/genAI/unsplash
   - halftone background image?
   - feint bootstrap electricity icon
@@ -40,10 +41,13 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 # time permitting
 - og links
 - more mobile friendliness
+- favicon
 
 ## Design
 
 - https://www.adobe.com/express/learn/blog/design-trends-2024
+- replicate some of this
+  - https://www.sustain-ability.com/#WhoWeAre
 - https://www.youtube.com/watch?v=F74c_1nwVbY
   - gradients
   - bento-box aesthetic (home page?)

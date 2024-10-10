@@ -20,13 +20,13 @@
 /* Define the scaling animation */
 @keyframes pulse {
   0% {
-    transform: rotate(30deg) scale(0.8);
+    transform: rotate(30deg) scale(0.6);
   }
   50% {
-    transform: rotate(30deg) scale(1.2); /* Enlarges to 1.2 times the original size */
+    transform: rotate(30deg) scale(0.9); /* Enlarges to 1.2 times the original size */
   }
   100% {
-    transform: rotate(30deg) scale(0.8); /* Returns to the original scale */
+    transform: rotate(30deg) scale(0.6); /* Returns to the original scale */
   }
 }
 
@@ -92,4 +92,20 @@ ul.unstyled {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
+}
+
+/* */
+
+
+.anim-in {
+  opacity: 0;
+  transform: translate(0, -10px);
+  
+  transition: opacity 500ms ease-in-out,
+              transform 500ms ease-in-out;
+}
+
+.anim-in.loaded {
+  transform: translate(0, 0px);
+  opacity: 1;
 }

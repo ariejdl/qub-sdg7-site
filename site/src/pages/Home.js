@@ -1,17 +1,59 @@
+import { useEffect } from "react";
 import "./Home.css"
 import { Link } from "react-router-dom";
+import anime from "animejs";
 
 export const HomePage = () => {
+
+  useEffect(() => {
+
+    /*
+
+      <h1 class="ml7">
+        <span class="text-wrapper">
+          <span class="letters">
+            Reality is broken is broken is broken</span>
+        </span>
+      </h1>
+      */
+
+      /*
+    var textWrapper = document.querySelector('.ml7 .words');
+    console.log('*', textWrapper)
+    console.log(textWrapper.textContent)
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='word'>$&</span>");
+    */
+
+    anime.timeline()
+      .add({
+        targets: '.ml7 .word',
+        translateY: ["1.1em", 0],
+        translateX: ["0.55em", 0],
+        opacity: 1,
+        translateZ: 0,
+        rotateZ: [10, 0],
+        duration: 750,
+        easing: "easeOutExpo",
+        delay: (el, i) => 200 * i
+      })
+    
+  }, [])
+
   return (
     <>
-      <h1 className="heading jumbo">
-        Affordable and <br />
-        clean energy
+
+      <h1 className="heading jumbo ml7" style={{ width: '80%' }}>
+        <span className="text-wrapper">
+          <span className="words">
+            {
+              "Affordable and clean energy".split(" ").map((v, i) => <span key={v + i} className="word">{ v }</span>)
+            }</span>
+        </span>
       </h1>
 
-      <div className="line"></div>
+      <div className="line anim-in"></div>
 
-      <div className="subtitle">
+      <div className="subtitle anim-in">
         <img src="/UN Logo.svg" />
         <div>
           <h3 className="heading">United Nations SDG7</h3>
@@ -19,17 +61,17 @@ export const HomePage = () => {
         </div>
       </div>
 
-      <p>
+      <p className="anim-in">
         "Ensure access to affordable, reliable, sustainable, and modern energy for all"
       </p>
 
-      <p>
+      <p className="anim-in">
         As one of the UN Sustainable Development Goals (SDGs) adopted in 2015, Goal 7, targets world energy consumption and creation. While the goals are aspirational, concrete progress toward ensuring universal access to affordable, reliable and modern energy services is essential to equitable international development. Renewables and energy efficiency are large components of this goal, while cooperation and infrastructure are clear means by which this should be accomplished.
       </p>
 
       <br />
 
-      <div className="bento-box heading">
+      <div className="bento-box heading anim-in">
         <Link to="/goal-overview" className="div1 action-item">
           Overview
           <div className="fancy-circle fancy-gradient" style={{ right: -40, bottom: -40, position: 'absolute' }} />
