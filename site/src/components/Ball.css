@@ -12,3 +12,16 @@
 .ball-holder.loaded {
   opacity: 0.98;
 }
+
+.ball-holder {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .content-area {
+    width: 80%;
+  }
+  .ball-holder {
+    display: block;
+  }
+}

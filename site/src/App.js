@@ -33,10 +33,6 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
       const closeFn = () => {
         setMenuOpen(false);
       }
-      // for old safari?
-      if (!document.body || !document.body.addEventListener) {
-        return
-      }
       document.body.addEventListener('click', closeFn);
       return () => {
         document.body.removeEventListener('click', closeFn);
@@ -62,6 +58,9 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
 
   useEffect(() => {
     const el = document.querySelector(".main-links")
+    if (!el) {
+      return
+    }
     if (menuOpen) {
       el.classList.add("show");
     } else {

@@ -103,6 +103,9 @@
   overflow: hidden;
 }
 
+.bento-box .action-item img {
+  z-index: -1;
+}
 
 .bento-box .action-item.focus,
 .bento-box .action-item:hover {
@@ -158,4 +161,15 @@
 
 .bento-box .div7 {
   grid-area: 4 / 3 / 5 / 5;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 800px) {
+
+  .bento-box,
+  .bento-box .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
