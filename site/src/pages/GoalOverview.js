@@ -43,6 +43,7 @@ export const GoalOverview = () => {
         This website explores SDG7, Affordable and Clean Energy, a fundamental
         element for a sustainable future. You can do your part to support this
         goal which will not only help the planet but your business outcomes.
+        <img src="pages/overview/4.png" width="200" style={{ float: 'right' }} />
       </p>
 
       <p>Let’s explore!</p>
@@ -67,6 +68,7 @@ export const GoalOverview = () => {
       </p>
 
       <p>
+        <img src="pages/overview/2.png" style={{ float: 'left', width: '40%', marginRight: 10, marginBottom: 20 }} />
         From your lighting, mobility, manufacturing, agriculture to the digital
         age, energy plays a vital role in our lives and in meeting your business
         needs.
@@ -300,6 +302,11 @@ export const GoalOverview = () => {
           </tr>
         </tbody>
       </table>
+
+      <br />
+      <br />
+
+      <img src="pages/overview/3.png" style={{ width: '100%' }} />
 
       <hr />
 
