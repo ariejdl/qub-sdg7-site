@@ -2,6 +2,8 @@
 import { useState } from "react";
 import "./Quiz.css";
 
+import regexifyString from 'regexify-string';
+
 import { QUIZ_DATA } from "./QuizData";
 import { QUIZ_REFERENCES } from "./QuizReferences";
 
@@ -35,7 +37,13 @@ export const QuizPage = () => {
       resultInfo ?
         <>
           <strong>Your Result:</strong>
-          <p className="result-info">{ resultInfo }</p>
+          <p className="result-info">{ regexifyString({
+            pattern: /\[\d+\]/gim,
+            decorator: (match, index) => {
+              return <sup key={index}>{match.replace('[', '').replace(']', '')}</sup>
+            },
+            input: resultInfo
+          }) }</p>
         </> :
         <div className="radio-group" key={currentId}>
           {
