@@ -104,11 +104,11 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
                   </div>
                   <div className="column">
                     <h3>Applications</h3>
-                    <Link to="/business-benefits" className="link-item">Business Benefits</Link>
+                    <Link to="/org-benefits" className="link-item">Organisational Benefits</Link>
                     <Link to="/recommendations" className="link-item">Recommendations</Link>
-                    <Link to="/best-practice" className="link-item">Best Practice</Link>
+                    <Link to="/case-studies" className="link-item">Case Studies</Link>
                     <Link to="/partnerships" className="link-item">Partnerships</Link>
-                    <Link to="/renewable-energy" className="link-item">Renewable Energy</Link>
+                    <Link to="/energy-types" className="link-item">Energy Types</Link>
                   </div>
                   <div className="column">
                     <h3>Review</h3>
@@ -143,24 +143,24 @@ const router = createBrowserRouter([
     element: <PageWrapper secondary Page={<ProgressPage />} />,
   },
   {
-    path: "/renewable-energy",
-    element: <PageWrapper secondary Page={<ErrorPage text="Renewable Energy - Page not ready" />} />,
+    path: "/energy-types",
+    element: <PageWrapper secondary Page={<ErrorPage text="Energy Types - Page not ready" />} />,
   },
   {
     path: "/three-pillars",
     element: <PageWrapper secondary Page={<ThreePillarsPage />} />,
   },
   {
-    path: "/business-benefits",
-    element: <PageWrapper secondary Page={<ErrorPage text="Business Benefits - Page not ready" />} />,
+    path: "/org-benefits",
+    element: <PageWrapper secondary Page={<ErrorPage text="Organisational Benefits - Page not ready" />} />,
   },
   {
     path: "/recommendations",
     element: <PageWrapper secondary Page={<ErrorPage text="Recommendations - Page not ready" />} />,
   },
   {
-    path: "/best-practice",
-    element: <PageWrapper secondary Page={<ErrorPage text="Best Practice - Page not ready" />} />,
+    path: "/case-studies",
+    element: <PageWrapper secondary Page={<ErrorPage text="Case Studies - Page not ready" />} />,
   },
   {
     path: "/quiz",

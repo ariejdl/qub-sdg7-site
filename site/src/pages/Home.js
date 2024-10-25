@@ -67,8 +67,8 @@ export const HomePage = () => {
           Three Pillars
           <img alt="decorative graphic" src="/shapes/1.png"  width="180" style={{ right: -20, bottom: -20, position: 'absolute' }} />
         </Link>
-        <Link to="/business-benefits" className="div4 action-item">
-          Business Benefits
+        <Link to="/org-benefits" className="div4 action-item">
+          Organisational Benefits
           <img alt="decorative graphic" src="/shapes/8.png"  width="120" style={{ right: 20, bottom: 0, position: 'absolute' }} />
         </Link>
         <Link to="/recommendations" className="div5 action-item">
@@ -76,16 +76,16 @@ export const HomePage = () => {
           <img alt="decorative graphic" src="/shapes/4.png"  width="100" style={{ right: 20, bottom: -20, position: 'absolute' }} />
         </Link>
         <div className="div6 row">
-          <Link to="/best-practice" className="action-item">
-            Best Practice
+          <Link to="/case-studies" className="action-item">
+            Case Studies
             <img alt="decorative graphic" src="/shapes/6.png"  width="80" style={{ right: 20, bottom: -10, position: 'absolute' }} />
           </Link>
           <Link to="/partnerships" className="action-item" style={{ flex: 2 }}>
             Organisation Partnerships
             <img alt="decorative graphic" src="/shapes/3.png"  width="120" style={{ right: -10, bottom: -20, position: 'absolute' }} />
           </Link>
-          <Link to="/renewable-energy" className="action-item">
-            Renewable Energy
+          <Link to="/energy-types" className="action-item">
+            Energy Types
             <img alt="decorative graphic" src="/shapes/8.png"  width="140" style={{ right: -20, bottom: -20, position: 'absolute' }} />
           </Link>
         </div>
