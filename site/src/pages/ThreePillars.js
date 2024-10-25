@@ -3,17 +3,17 @@ export const ThreePillarsPage = () => {
 
   return <div>
 
-    <h1 className="heading anim-in">Three Pillars</h1>
+    <h1 className="heading anim-in">3 Pillars</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur<sup>1</sup> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis<sup>2</sup> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <img src="pages/3-pillars/1.png" style={{ width: '100%' }} />
 
     <hr />
 
-    <ul className="unstyled">
-      <li>1. XYZ, 123</li>
-      <li>2. ABC, 123</li>
+    <ul className="unstyled references">
+      <li>[1] Konadu, R., Ahinful, G.S. and Owusu-Agyei, S. (2021) ‘Corporate governance pillars and business sustainability: does stakeholder engagement matter?’, International journal of disclosure and governance, 18(3), pp. 269–289. Doi: https://doi.org/10.1057/s41310-021-00115-3.</li>
+      <li>[2] Boussemart, J.-P. et al. (2020) ‘Performance analysis for three pillars of sustainability’, Journal of productivity analysis, 53(3), pp. 305–320.doi: https://doi.org/10.1007/s11123-020-00575-9. </li>
+      <li>[3] Mori, M. (ed.) (2022) Globalization and Sustainability :  recent advances, new perspectives and emerging issues / edited by Margherita Mori. First edition. London: IntechOpen. https://mts.intechopen.com/storage/books/11476/authors_book/authors_book.pdf </li>
+      <li>[4] Capozza, C., Divella, M., & Rubino, A. (2021). Exploring energy transition in European firms: The role of policy instruments, demand-pull factors and cost-saving needs in driving energy-efficient and renewable energy innovations. Energy Sources, Part B: Economics, Planning, and Policy, 16(11-12), 1094-1109. doi:https://www.tandfonline.com/doi/full/10.1080/15567249.2021.1939462.</li>
     </ul>
 
   </div>
