@@ -8,6 +8,22 @@ body {
   min-height: 100vh;
 }
 
+#safari-notice {
+  display: block;
+  margin: auto;
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  width: 50%;
+  font-size: 2rem;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -119,5 +135,4 @@ footer {
   .content-area {
     width: 1000px;
   }
-  
 }

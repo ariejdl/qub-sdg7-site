@@ -39,13 +39,13 @@ export const HomePage = () => {
       <div className="subtitle anim-in">
         <img src="/UN Logo.svg" />
         <div>
-          <h3 className="heading">United Nations SDG7</h3>
+          <h3 className="heading">United Nations SDG No.7</h3>
           <h3 className="heading">Information pack for large organisations</h3>
         </div>
       </div>
 
       <p className="anim-in">
-        "Ensure access to affordable, reliable, sustainable, and modern energy for all"
+        Sustainable Development Goal (SDG) No. 7: "Ensure access to affordable, reliable, sustainable, and modern energy for all"
       </p>
 
       <p className="anim-in">

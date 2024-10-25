@@ -131,11 +131,11 @@ export const QUIZ_DATA = [{
       question: 'Is this unused land comprised of tarmac or grassland?',
       options: [
         {
-          value: 'Yes',
+          value: 'Tarmac',
           result: 'We understand that wasted space is a certainty in office spaces from car parks to peripheral land. However, office rooftops should be considered as a great place to install solar panel solutions for clean energy solutions. Within an 18-month return period, office buildings with roof-mounted solar panels experienced a decrease in energy usage by 18 % (Mirjalili et al., 2023). Likewise, the efficiency of solar panels can decrease by as much as 40 % without proper maintenance and cleaning (Anber and Aboshosha, 2024). Having a space that is easily accessed, such as a roof space, is vital to ensure viability within the business. Solutions such as solar panels will become more widespread as the technology improves, but adopting clean energy usage early can vastly decrease your business’ carbon footprint.'
         },
         {
-          value: 'No',
+          value: 'Grassland',
           result: 'Large engineering projects to sequester CO2 from the atmosphere may be more efficient. These are very unattainable for businesses. However, nature-based solutions such as tree planting can have a huge impact on your business’ carbon reduction. As of 2019, atmospheric CO2 reached a level of 417.7 ppm (Liu and Ma, 2020). Through the planting of trees, the carbon sequester rate has been up to 0.80 tonnes (Hectare/Year) (Jo et al., 2023). Trees also offer additional benefits to the business, including reduced air pollution and noise reduction. Vast energy use is a necessity for every business, however, regreening of our urban spaces can be an achievable step toward our clean energy goal.'
         }
       ]

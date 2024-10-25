@@ -27,10 +27,24 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+            const isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone|Opera Mini|IEMobile/i.test(navigator.userAgent);
+
+            if (!isSafari || isMobile) {
+              return;
+            }
+            document.getElementById('safari-notice').style['display'] = 'block'
+        });
+      </script>
     <title>SDG7</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="safari-notice" class="heading" style="display:none;">
+      Please use Google Chrome or Mozilla Firefox
+    </div>
     <div id="root"></div>
     <!--
       This HTML file is a template.

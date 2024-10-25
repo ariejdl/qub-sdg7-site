@@ -17,6 +17,13 @@
   animation: slowRotate 100s linear infinite; /* Adjust the duration for speed */
 }
 
+@media only screen and (max-width: 800px) {
+  .pulsing-mesh,
+  .rotating-mesh {
+    display: none;
+  }
+}
+
 /* Define the scaling animation */
 @keyframes pulse {
   0% {

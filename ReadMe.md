@@ -28,7 +28,7 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
 
 # TODO:
 - please view in chrome or firefox notice [outside of React!]
-- test other browsers]
+- test other browsers
 - safari router bug
 - images/genAI/unsplash
   - halftone background image?
