@@ -5,14 +5,20 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import { HomePage } from "./pages/Home";
 import { Scene3D } from "./components/Ball";
 import { useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+
+import { HomePage } from "./pages/Home";
 import { GoalOverview } from './pages/GoalOverview';
 import { ProgressPage } from './pages/Progress';
 import { ThreePillarsPage } from './pages/ThreePillars';
 import { QuizPage } from './pages/Quiz';
+import { EnergyTypesPage } from './pages/EnergyTypes';
+import { OrgBenefitsPage } from './pages/OrgBenefits';
+import { RecommendationsPage } from './pages/Recommendations';
+import { CaseStudiesPage } from './pages/CaseStudies';
+import { PartnershipsPage } from './pages/Partnerships';
 
 const ErrorPage = ({ text = "Page Not Found" }) => {
   return <div>
@@ -144,7 +150,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/energy-types",
-    element: <PageWrapper secondary Page={<ErrorPage text="Energy Types - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<EnergyTypesPage />} />,
   },
   {
     path: "/three-pillars",
@@ -152,15 +158,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/org-benefits",
-    element: <PageWrapper secondary Page={<ErrorPage text="Organisational Benefits - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<OrgBenefitsPage />} />,
   },
   {
     path: "/recommendations",
-    element: <PageWrapper secondary Page={<ErrorPage text="Recommendations - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<RecommendationsPage />} />,
   },
   {
     path: "/case-studies",
-    element: <PageWrapper secondary Page={<ErrorPage text="Case Studies - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<CaseStudiesPage />} />,
   },
   {
     path: "/quiz",
@@ -168,7 +174,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/partnerships",
-    element: <PageWrapper secondary Page={<ErrorPage text="Partnerships - Page not ready" />} />,
+    element: <PageWrapper secondary Page={<PartnershipsPage />} />
   },
 ]);
 
