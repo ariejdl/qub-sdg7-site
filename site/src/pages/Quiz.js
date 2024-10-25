@@ -89,7 +89,7 @@ export const QuizPage = () => {
 
     <hr />
 
-    <ul className="unstyled quiz-references">
+    <ul className="unstyled references">
       {
         QUIZ_REFERENCES.map((v, i) => {
           return <li key={i}>{ v }</li>
