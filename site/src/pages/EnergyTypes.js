@@ -2,6 +2,8 @@
 /* can delete when finished */
 export const EnergyTypesPage = () => {
 
+  // https://jsfiddle.net/juanjus98/b5vAQ/
+
   return <div>
 
     <h1 className="heading anim-in">Energy Types</h1>

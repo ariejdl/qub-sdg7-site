@@ -184,12 +184,6 @@ export const CaseStudiesPage = () => {
 
       <Link to="/org-benefits">Back to Organisation Benefits</Link>
 
-      <hr />
-
-      <ul className="unstyled references">
-        <li>1. XYZ, 123</li>
-        <li>2. ABC, 123</li>
-      </ul>
     </div>
   );
 };
