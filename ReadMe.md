@@ -56,3 +56,7 @@ S3 with cert: - <https://medium.com/modern-stack/5-minute-static-ssl-website-in-
   - body font
 - partly serious business/corporate aesthetic
 - generative AI?
+
+# Licenses
+
+- this project uses bootstrap icons https://github.com/twbs/bootstrap/blob/v4.0.0/LICENSE

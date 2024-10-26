@@ -61,7 +61,13 @@ export const OrgBenefitsPage = () => {
     <h3>Enhanced Employee and Stakeholder Engagement</h3>
     <p>Adopting renewable energy fosters a culture of sustainability within a business, which improves employee morale and satisfaction. Companies committed to sustainability also find it easier to attract and retain top talent, particularly millennials and Gen Z, who prioritise environmental values in the workplace.</p>
 
-    <Link to="/case-studies">Continue to Case Studies</Link>
+    <Link to="/case-studies">
+      Continue to Case Studies
+      &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+      </svg>
+    </Link>
 
   </div>
 }

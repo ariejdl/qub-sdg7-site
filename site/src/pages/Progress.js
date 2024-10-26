@@ -1,3 +1,4 @@
+import { scrollTop } from "../utils"
 
 export const ProgressPage = () => {
 
@@ -47,6 +48,14 @@ export const ProgressPage = () => {
     <h3>How we can achieve the targets </h3>
     <p>Innovation, policy, and financial support are the key principles towards clean energy for all.  In detail, that means the Implementation of environmental policies to reach electrification for all. The enhancement of energy efficiency through direct investments <sup>3</sup> in technology <sup>4</sup>, Infrastructure and the support of different renewable energy projects through the enforcement of strategies consisting of for example subsidies and financial investment. <sup>3</sup> Finally, the support of Innovation is essential to ensure a successful process on the long term and to improve the energy efficiency.<sup>1</sup></p>
 
+    <br />
+    <button onClick={() => scrollTop()}>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+    </svg>
+    &nbsp;
+      Scroll to Top
+    </button>
 
     <hr />
 

@@ -19,6 +19,7 @@ import { OrgBenefitsPage } from './pages/OrgBenefits';
 import { RecommendationsPage } from './pages/Recommendations';
 import { CaseStudiesPage } from './pages/CaseStudies';
 import { PartnershipsPage } from './pages/Partnerships';
+import { scrollTop } from './utils';
 
 const ErrorPage = ({ text = "Page Not Found" }) => {
   return <div>
@@ -47,7 +48,7 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
   }, [menuOpen]);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    scrollTop();
 
     document.querySelectorAll(".anim-in").forEach((el, i) => {
       setTimeout(() => {
