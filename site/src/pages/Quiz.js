@@ -64,13 +64,12 @@ export const QuizPage = () => {
         </div>
     }
 
-  
     <br />
 
     { resultInfo ? <button onClick={() => {
       setCurrentId(START_ID);
       setResult("")
-    }}>Reset</button> : <>
+    }}>Start again</button> : <>
       <button onClick={() => {
         if (data && currentOption) {
           const option = data.options[currentOption - 1]
