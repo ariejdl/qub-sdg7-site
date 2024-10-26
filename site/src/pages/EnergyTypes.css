@@ -48,6 +48,7 @@
   transition: 0.5s;
 }
 .flip .card .face {
+  border-radius: 4px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -62,21 +63,36 @@
 
 }
 .flip .card .front {
+  transition: transform 200ms ease-in-out,
+            text-shadow 200ms ease-in-out;
   position: absolute;
   z-index: 1;
   background: black;
   color: white;
   cursor: pointer;
 
+  background-size: cover;
+  background-position: center;
+
   /* centre align text */
   display: flex;
   align-items: center;
   justify-content: center;
+
+  text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  box-shadow: inset 0 2px 20px rgba(0,0,0,0.1);
 }
+
+
+.flip .card .front:hover {
+  transform: scale(1.01);
+  text-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
 .flip .card .back {
   text-align: left;
-  background: blue;
-  background: orange;
+  background: rgb(228, 228, 228);
+  box-shadow: inset 0 2px 20px rgba(0,0,0,0.1);
   color: black;
   cursor: pointer;
 

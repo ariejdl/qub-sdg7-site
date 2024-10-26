@@ -110,7 +110,7 @@ export const CaseStudiesPage = () => {
           </ul>
         </li>
         <li>
-          <strong>Reference:</strong> <a href="https://www.apple.com/environment/">Apple Environmental Progress Report</a>
+          <strong>Reference:</strong> <a target="_blank" href="https://www.apple.com/environment/">Apple Environmental Progress Report</a>
         </li>
       </ul>
 
@@ -175,7 +175,7 @@ export const CaseStudiesPage = () => {
             </li>
           </ul>
         </li>
-        <li><strong>Reference:</strong> <a href="https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard">Microsoft Sustainability</a></li>
+        <li><strong>Reference:</strong> <a target="_blank" href="https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard">Microsoft Sustainability</a></li>
       </ul>
 
       <h2>Conclusion</h2>

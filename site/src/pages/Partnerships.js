@@ -42,7 +42,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Environmental Defense Fund visit the{" "}
-        <a href="https://www.edf.org/">Website</a>
+        <a target="_blank" href="https://www.edf.org/">Website</a>
       </p>
       <br />
 
@@ -68,7 +68,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Power for all visit the{" "}
-        <a href="https://www.powerforall.org/">Website</a>.
+        <a target="_blank" href="https://www.powerforall.org/">Website</a>.
       </p>
       <br />
 
@@ -93,7 +93,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Power for all visit the{" "}
-        <a href="https://www.irena.org/">Website</a>.{" "}
+        <a target="_blank" href="https://www.irena.org/">Website</a>.{" "}
       </p>
       <br />
 
@@ -119,7 +119,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Renewable World visit the{" "}
-        <a href="https://renewable-world.org/">Website</a>.
+        <a target="_blank" href="https://renewable-world.org/">Website</a>.
       </p>
       <br />
 
@@ -145,7 +145,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support CARICOM Development Fund, visit the{" "}
-        <a href="https://caricomdevelopmentfund.org/">Website</a>.
+        <a target="_blank" href="https://caricomdevelopmentfund.org/">Website</a>.
       </p>
       <br />
 
@@ -175,7 +175,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support World Resources Institute, visit the{" "}
-        <a href="https://www.wri.org/">Website</a>.
+        <a target="_blank" href="https://www.wri.org/">Website</a>.
       </p>
       <br />
 
@@ -203,7 +203,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support renewable energy foundation, visit the{" "}
-        <a href="https://www.ref.org.uk/about-ref">Website</a>.
+        <a target="_blank" href="https://www.ref.org.uk/about-ref">Website</a>.
       </p>
       <br />
 
