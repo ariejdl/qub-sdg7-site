@@ -11,13 +11,16 @@ export const ProgressPage = () => {
       
     <h3>Tracking SDG 7 Data Sustainable Development Report 2023</h3>
 
-    <iframe width="560" height="315" 
+    <iframe width="400" height="260" 
             src="https://www.youtube.com/embed/fzujXqh4FnY" 
             title="YouTube video player" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
     </iframe>
+
+    <br />
+    <br />
 
     <h3>How we are on track with SDG 7</h3>
 

@@ -113,7 +113,7 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
                     <Link to="/org-benefits" className="link-item">Organisational Benefits</Link>
                     <Link to="/recommendations" className="link-item">Recommendations</Link>
                     <Link to="/case-studies" className="link-item">Case Studies</Link>
-                    <Link to="/partnerships" className="link-item">Partnerships</Link>
+                    <Link to="/partnerships" className="link-item">Suggested Partnerships</Link>
                     <Link to="/energy-types" className="link-item">Energy Types</Link>
                   </div>
                   <div className="column">

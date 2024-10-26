@@ -6,14 +6,14 @@ export const RecommendationsPage = () => {
 
     <h1 className="heading anim-in">Recommendations, Localisation</h1>
 
-<p>SDG localisation refers to the process of turning the goals into reality at a localised level, whilst aligning with communities’ priorities and national frameworks [1]. .</p>
-<p>Implementing appropriate tools and strategies at a local level is fundamental to the design and success of the 2030 Agenda for Sustainable Development. Localising the SDGs at the business level includes integrating the SDGs into an organisation’s culture, operations and strategies [2].</p>
+<p>SDG localisation refers to the process of turning the goals into reality at a localised level, whilst aligning with communities’ priorities and national frameworks <sup>1</sup>.</p>
+<p>Implementing appropriate tools and strategies at a local level is fundamental to the design and success of the 2030 Agenda for Sustainable Development. Localising the SDGs at the business level includes integrating the SDGs into an organisation’s culture, operations and strategies <sup>2</sup>.</p>
 <p>A transition to clean, efficient, reliable and sustainable energy system needs significant shifts in the demand and supply of energy. Every business has a responsibility to search for and implement energy efficient improvements, perform energy saving actions and source energy from clean sources.  As a business, you can make these commitments.</p>
 <p>Energy efficiency means more output for input. Essentially, using less energy for the same output or producing more with the same energy input, and minimising energy waste.  </p>
 <p>Implementing energy saving actions leads to ecological advantages and cost savings.  </p>
 <p>Often, higher investment costs for efficient appliances are overcompensated by maintenance costs and saved energy leading to net cost savings in the long term.  </p>
  <p>Improving your energy efficiency could increase the profitability of your business through cost savings, protection against potential future energy price increases and even enhancing productivity. Despite popular belief, improving energy efficiency does not mean giving our quality of life. Improving energy efficiency is based, on production optimisation processes, responsible energy consumption, using renewable energy sources and recycling.  </p>
-<p>The journey to net-zero, decarbonisation and efficient energy use can be complicated. However, change is necessary, possible to action and people are at the heart of it [3].</p>
+<p>The journey to net-zero, decarbonisation and efficient energy use can be complicated. However, change is necessary, possible to action and people are at the heart of it <sup>3</sup>.</p>
 <p>Here are some key steps to effectively localize SDG7:</p>
 
     <h3>Culture, Engagement and collaboration:</h3>
@@ -51,7 +51,7 @@ export const RecommendationsPage = () => {
     <li>Draught proof the property, insulate and keep windows closed on the premise. </li>
     <li>Thermostats should be programmed to reduce heating/cooling while the building is empty.  </li>
     <li>Use energy efficient appliances that consume less energy. </li>
-    <li>Use LED bulbs. This can save up to 80% energy compared to traditional lighting [4] and are made from more environmentally friendly materials. </li>
+    <li>Use LED bulbs. This can save up to 80% energy compared to traditional lighting <sup>4</sup> and are made from more environmentally friendly materials. </li>
     <li>Encourage employees to use public transport, walking, or cycling to commute to work.</li>
     <li>Driving habits to be more energy efficient: keep a steady pace and do not drive at excessive speeds; keep the windows closed and set the air conditioning to an average temperature of 21°C; and ensure that tires and the engine are properly maintained.</li>
     <li>If applicable, create products that are clean to use, energy efficient and set at an accessible and affordable pricing point.</li>
