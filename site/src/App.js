@@ -24,7 +24,11 @@ import { scrollTop } from './utils';
 const ErrorPage = ({ text = "Page Not Found" }) => {
   return <div>
     <h3 className="header">{ text }</h3>
-    <img src="/Darwin1.png" alt="Page not ready" width="180" style={{ 'margin': 'auto' }}/>
+    <br />
+    <img src="/Darwin1.png" alt="Page not ready" width="180" style={{ display: 'block' }}/>
+    <br />
+    <br />
+    <Link to="/">Home</Link>
   </div>
 }
 
@@ -139,7 +143,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <PageWrapper Page={<HomePage />} />,
-    errorElement: <PageWrapper notFound={true} Page={<ErrorPage text="Overview - Page not ready" />} />
+    errorElement: <PageWrapper notFound={true} Page={<ErrorPage text="404 - Couldn't find that!" />} />
   },
   {
     path: "/goal-overview",
