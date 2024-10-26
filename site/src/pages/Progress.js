@@ -25,9 +25,14 @@ export const ProgressPage = () => {
 
     <h3>How we are on track with SDG 7</h3>
 
-    <img src="pages/progress/1.png" style={{ width: '100%' }} />
 
-    <p>(Reference: own representation based on the United Nations, 2024, p. 44.)</p>
+    <br />
+    <img src="pages/progress/1.png" style={{ width: '80%' }} />
+
+    <p style={{ color: '#ccc' }}>(Reference: own representation based on the United Nations, 2024, p. 44.)</p>
+
+    <br />
+    <br />
 
     <h3>What we have achieved (2015-2022)</h3>
     <ol>
