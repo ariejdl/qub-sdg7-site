@@ -92,7 +92,7 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
           <img src="/grid.svg" className="rotating-mesh" />
         </div>
         <div className="content-wrapper">
-          <div className="watermark-image"></div>
+          { largeBall ? <div className="watermark-image"></div> : null }
           {
             secondary ?
               <>

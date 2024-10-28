@@ -25,7 +25,15 @@ export const HomePage = () => {
   return (
     <>
 
-      <h1 className="heading jumbo ml7" style={{ width: '80%' }}>
+      <div className="subtitle anim-in">
+        <img src="/logo.svg" width="40" />
+        <div>
+          <h3 className="heading">United Nations SDG No.7</h3>
+          <h3 className="heading">Information pack for large organisations</h3>
+        </div>
+      </div>
+
+      <h1 className="heading jumbo ml7" style={{ width: '85%' }}>
         <span className="text-wrapper">
           <span className="words">
             {
@@ -36,13 +44,6 @@ export const HomePage = () => {
 
       <div className="line anim-in"></div>
 
-      <div className="subtitle anim-in">
-        <img src="/UN Logo.svg" />
-        <div>
-          <h3 className="heading">United Nations SDG No.7</h3>
-          <h3 className="heading">Information pack for large organisations</h3>
-        </div>
-      </div>
 
       <p className="anim-in">
         Sustainable Development Goal (SDG) No. 7: "Ensure access to affordable, reliable, sustainable, and modern energy for all"
