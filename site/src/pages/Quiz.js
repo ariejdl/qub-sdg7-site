@@ -20,6 +20,10 @@ export const QuizPage = () => {
 
     <h1 className="heading anim-in">Quiz</h1>
 
+    <p>Adoption of clean, sustainable energy is available today for your business. However, the correct sustainability solution will be different for every field. Take our interactive quiz to best guide your business’ action plan toward a more sustainable use of energy.</p>
+
+    <hr />
+
     {
       data?.question ? <><p>
         { data.question }

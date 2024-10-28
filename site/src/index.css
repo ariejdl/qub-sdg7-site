@@ -24,6 +24,13 @@ body {
   font-weight: bold;
 }
 
+/* better line behaviour */
+sup {
+  vertical-align: top;
+  top:-0.3rem;
+  position: relative;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

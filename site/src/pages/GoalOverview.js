@@ -9,7 +9,7 @@ export const GoalOverview = () => {
         <strong>
           "Sustainable development is development that meets the needs of the
           present, without compromising the ability of future generations to
-          meet their own needs."
+          meet their own needs."<sup>1</sup>
         </strong>
       </p>
 
@@ -19,7 +19,7 @@ export const GoalOverview = () => {
         peace for humans and the earth. At its core are 17 Sustainable
         Development Goals (SDGs). These are an urgent call for action to handle
         the three interconnected dimensions of sustainability: social,
-        environmental and economic.
+        environmental and economic.<sup>2</sup>
       </p>
 
       <p>
@@ -27,7 +27,7 @@ export const GoalOverview = () => {
         COVID-19, the cost-of-living crisis, international conflict and the
         climate crisis have created set backs but hope remains and more than
         ever you and your business need to take action to help realise these
-        aspirations and create a more equal, prosperous and healthy future.
+        aspirations and create a more equal, prosperous and healthy future.<sup>3</sup>
       </p>
 
       <p>
@@ -60,13 +60,13 @@ export const GoalOverview = () => {
       <p>
         Sustainable Development Goal Seven, alongside, SDG13, contains the least
         amount of targets out of all the goals. However, it still is an
-        essential priority and fundamental for our development.
+        essential priority and fundamental for our development.<sup>4</sup>
       </p>
 
       <p>
         Since modern energy was launched over two centuries ago during the
         industrial revolution, it has underpinned human activities and has been
-        a major factor for continuous economic growth globally since.{" "}
+        a major factor for continuous economic growth globally since.{" "}<sup>5</sup>
       </p>
 
       <p>
@@ -82,7 +82,7 @@ export const GoalOverview = () => {
         production is unsustainable and detrimental to the planet. Worldwide
         emissions of carbon dioxide (CO2) from burning fossil fuels total about
         34 billion tonnes (Gt) per year contributing significantly to climate
-        change. This means it is paramount to transform how we produce and
+        change<sup>6</sup>. This means it is paramount to transform how we produce and
         consume energy and implement these changes with immediate effect.{" "}
       </p>
 
@@ -92,16 +92,16 @@ export const GoalOverview = () => {
         exponentially increasing the share of renewable energy in the global
         mix. Attaining SDG7 has a major impact on the environment, business
         processes, health and protecting people from environmental, economic and
-        social risks such as the greatest threat of our time, climate change.{" "}
+        social risks such as the greatest threat of our time, climate change.{" "}<sup>7</sup>
       </p>
 
       <p>
         Concerningly, The 2023 edition of Tracking SDG 7: The Energy Progress
         Report exclaims that efforts currently are not sufficient to achieve
-        SDG7 by 2030.
+        SDG7 by 2030.<sup>8</sup>
       </p>
 
-      <p>SDG7 is underpinned by three interlinking targets:</p>
+      <p>SDG7 is underpinned by three interlinking targets:<sup>9</sup></p>
 
       <h3>Target 7.1: UNIVERSAL ACCESS TO MODERN ENERGY</h3>
       <p>
@@ -129,7 +129,7 @@ export const GoalOverview = () => {
         behavioural conservation equates to a unit that does not need to be
         produced. Consequently, this reduces the energy requirements for
         renewables expansion and universal access provision, thereby reducing
-        the burden of attaining them.
+        the burden of attaining them.<sup>10</sup>
       </p>
 
       <hr />
@@ -164,14 +164,14 @@ export const GoalOverview = () => {
         If changes aren’t effectively implemented, an estimated 660 million
         people will continue to lack access to electricity and approximately 1.8
         billion will have to live without clean cooking fuels and technologies
-        by 2030.
+        by 2030.<sup>11</sup>
       </p>
       <p>
         To achieve universal access to clean energy by 2030, robust policies are
         needed to accelerate electrification, enhance energy efficiency and
         increase investments in renewable energy. This, as well as producing
         progressive innovative solutions and supportive regulatory policies, are
-        pivotal to advance towards SDG7 and meet climate objectives.
+        pivotal to advance towards SDG7 and meet climate objectives.<sup>12</sup>
       </p>
 
       <table className="c72">
@@ -179,7 +179,7 @@ export const GoalOverview = () => {
           <tr className="c45">
             <td style={{ width: '50%' }} className="c27 c49" colSpan="1" rowSpan="1">
               <p className="c22">
-                <span className="c28 bold">TARGETS</span>
+                <span className="c28 bold">TARGETS</span><sup>13</sup>
               </p>
             </td>
             <td style={{ width: '50%' }} className="c27 c95" colSpan="1" rowSpan="1">
@@ -323,11 +323,19 @@ export const GoalOverview = () => {
 
       <ul className="unstyled references">
 
-        <li>[1] Chovancová, J. and Vavrek, R. (2022). On the Road to Affordable and Clean Energy: Assessing the Progress of European Countries Toward Meeting SDG 7. Polish Journal of Environmental Studies, 31(2). doi:https://doi.org/10.15244/pjoes/142479.</li>
-        <li>[2] United Nations (2023). SDG7 Tracking Report | United Nations. [online] United Nations. Available at: https://www.un.org/en/energy/page/sdg7-tracking-report [Accessed 17 Oct. 2024].</li>
-        <li>[3] The Global Goals (2024). Goal 7: Affordable and clean energy. [online] The Global Goals. Available at: https://www.globalgoals.org/goals/7-affordable-and-clean-energy/.</li>
-        <li>World Nuclear Association (2024). Carbon Dioxide Emissions From Electricity - World Nuclear Association. [online] world-nuclear.org. Available at: https://world-nuclear.org/information-library/energy-and-the-environment/carbon-dioxide-emissions-from-electricity [Accessed 10 Oct. 2024].</li>
-        <li>Estevão, J. and Lopes, J.D. (2024). SDG7 and renewable energy consumption: The influence of energy sources. Technological Forecasting and Social Change, [online] 198, p.123004. doi:https://doi.org/10.1016/j.techfore.2023.123004.</li>
+        <li>[1] World Commission On Environment and Development (1987). Our Common Future. Suffolk: Oxford University Press.</li>
+        <li>[2] Estevão, J. and Lopes, J.D. (2024). SDG7 and renewable energy consumption: The influence of energy sources. Technological Forecasting and Social Change, [online] 198, p.123004. doi:https://doi.org/10.1016/j.techfore.2023.123004.</li>
+        <li>[3] United Nations (2023). With less than one fifth of targets on track, world is failing to deliver on promise of the Sustainable Development Goals, warns new UN report | United Nations. [online] United Nations. Available at: https://www.un.org/en/with-less-than-one-fifth-of-targets-on-track. [Accessed: 14 October 2024]</li>
+        <li>[4] McCollum, D., Gomez Echeverri, L., Riahi, K. and Parkinson, S., 2017. Sdg7: Ensure access to affordable, reliable, sustainable and modern energy for all.</li>
+        <li>[5] Gebara, C.H. and Laurent, A. (2023). National SDG-7 performance assessment to support achieving sustainable energy for all within planetary limits. Renewable and Sustainable Energy Reviews, 173, p.112934. doi:https://doi.org/10.1016/j.rser.2022.112934.</li>
+        <li>[6] World Nuclear Association (2024). Carbon Dioxide Emissions From Electricity - World Nuclear Association. [online] world-nuclear.org. Available at: https://world-nuclear.org/information-library/energy-and-the-environment/carbon-dioxide-emissions-from-electricity [Accessed 10 Oct. 2024].</li>
+        <li>[7] Chovancová, J. and Vavrek, R. (2022). On the Road to Affordable and Clean Energy: Assessing the Progress of European Countries Toward Meeting SDG 7. Polish Journal of Environmental Studies, 31(2). doi:https://doi.org/10.15244/pjoes/142479.</li>
+        <li>[8] United Nations (2023). SDG7 Tracking Report | United Nations. [online] United Nations. Available at: https://www.un.org/en/energy/page/sdg7-tracking-report [Accessed 17 Oct. 2024].</li>
+        <li>[9] The Global Goals (2024). Goal 7: Affordable and clean energy. [online] The Global Goals. Available at: https://www.globalgoals.org/goals/7-affordable-and-clean-energy/.</li>
+        <li>[10] Fontana, L., Atella, V. and Kammen, D.M. (2013). Energy efficiency as a unifying principle for human, environmental, and global health. F1000Research, 2, p.101. doi:https://doi.org/10.12688/f1000research.2-101.v1.</li>
+        <li>[11] United Nations (2023b). Ensure Access to Affordable, Reliable, Sustainable and Modern Energy. [online] United Nations Sustainable Development. Available at: https://www.un.org/sustainabledevelopment/energy/.</li>
+        <li>[12] Jayachandran, M., Gatla, R.K., Rao, K.P., Rao, G.S., Mohammed, S., Milyani, A.H., Azhari, A.A., Kalaiarasy, C. and Geetha, S. (2022b). Challenges in achieving sustainable development goal 7: Affordable and clean energy in light of nascent technologies. Sustainable Energy Technologies and Assessments, [online] 53(3), p.102692. doi:https://doi.org/10.1016/j.seta.2022.102692.</li>
+        <li>[13] United Nations (n.d.). SDG7 Targets & Indicators. [online] United Nations. Available at: https://www.un.org/en/energy/page/sdg7-targets-indicators [Accessed 12 Oct. 2024].</li>
 
       </ul>
     </div>
