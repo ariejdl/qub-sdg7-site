@@ -35,7 +35,7 @@ const ErrorPage = ({ text = "Page Not Found" }) => {
 const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
 
   const location = useLocation();
-  const [largeBall, setLargeBall] = useState(false);
+  const [isHome, setIsHome] = useState(false);
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -61,9 +61,9 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
     })
 
     if (location.pathname === "/" || notFound) {
-      setLargeBall(true)
+      setIsHome(true);
     } else {
-      setLargeBall(false)
+      setIsHome(false);
     }
   }, [location.pathname, notFound])
 
@@ -82,7 +82,93 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
   return (
     <>
       <div className="content-area">
-        { largeBall ? <Scene3D large={largeBall} /> : null }
+        {isHome ? (
+          <div className="subtitle">
+            <img src="/logo.svg" width="40" />
+            <div>
+              <h3 className="heading">United Nations SDG No.7</h3>
+              <h3 className="heading">
+                Information pack for large organisations
+              </h3>
+            </div>
+          </div>
+        ) : null}
+
+        {secondary ? (
+          <>
+            <div className="menu-items" style={{ display: "flex", gap: 10 }}>
+              <div
+                onClick={(e) => {
+                  setMenuOpen((v) => !v);
+                  e.stopPropagation();
+                }}
+                className="hamburger-menu"
+                style={{ marginTop: 8, height: 30, width: 30, padding: 5 }}
+              >
+                <img src="hamburger.png" width="30" />
+              </div>
+              <Link className="no-link-style title-link" to="/">
+                <h1
+                  className="heading"
+                  style={{ marginTop: 0, marginBottom: 0 }}
+                >
+                  Affordable and clean energy, SDG7
+                </h1>
+              </Link>
+            </div>
+            <div className="main-links anim-in-fancy">
+              <div className="inner">
+                <div className="column">
+                  <h3>General</h3>
+                  <Link to="/goal-overview" className="link-item">
+                    Overview
+                  </Link>
+                  <Link to="/our-progress" className="link-item">
+                    Progress
+                  </Link>
+                  <Link to="/three-pillars" className="link-item">
+                    Three Pillars
+                  </Link>
+                </div>
+                <div className="column">
+                  <h3>Applications</h3>
+                  <Link to="/org-benefits" className="link-item">
+                    Organisational Benefits
+                  </Link>
+                  <Link to="/recommendations" className="link-item">
+                    Recommendations
+                  </Link>
+                  <Link to="/case-studies" className="link-item">
+                    Case Studies
+                  </Link>
+                  <Link to="/partnerships" className="link-item">
+                    Suggested Partnerships
+                  </Link>
+                  <Link to="/energy-types" className="link-item">
+                    Energy Types
+                  </Link>
+                </div>
+                <div className="column">
+                  <h3>Review</h3>
+                  <Link to="/quiz" className="link-item">
+                    Quiz
+                  </Link>
+                </div>
+              </div>
+            </div>
+            { false && <div
+              style={{
+                position: "absolute",
+                left: 10,
+                right: 10,
+                height: 4,
+                background: "rgba(0,0,0,0.2)",
+              }}
+            ></div> }
+          </>
+        ) : null}
+
+        {isHome ? <Scene3D large={isHome} /> : null}
         <div className="details" style={{ zIndex: -1 }}>
           <img
             src="/blocks.svg"
@@ -92,46 +178,9 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
           <img src="/grid.svg" className="rotating-mesh" />
         </div>
         <div className="content-wrapper">
-          { largeBall ? <div className="watermark-image"></div> : null }
-          {
-            secondary ?
-              <>
-              <div style={{ display: 'flex', gap: 10, marginLeft: -10 }}>
-                <div onClick={(e) => {
-                  setMenuOpen(v => !v)
-                  e.stopPropagation()
-                }} className="hamburger-menu" style={{ marginTop: 16, height: 30, width: 30, padding: 5 }}>
-                  <img src="hamburger.png" width="30" />
-                </div>
-                <Link className="no-link-style title-link" to="/"><h1 className="heading" style={{ marginTop: 10, marginBottom: 10 }}>Affordable and clean energy, SDG7</h1></Link>
-              </div>
-              <div className="main-links anim-in-fancy">
-                <div className="inner">
-                  <div className="column">
-                    <h3>General</h3>
-                    <Link to="/goal-overview" className="link-item">Overview</Link>
-                    <Link to="/our-progress" className="link-item">Progress</Link>
-                    <Link to="/three-pillars" className="link-item">Three Pillars</Link>
-                  </div>
-                  <div className="column">
-                    <h3>Applications</h3>
-                    <Link to="/org-benefits" className="link-item">Organisational Benefits</Link>
-                    <Link to="/recommendations" className="link-item">Recommendations</Link>
-                    <Link to="/case-studies" className="link-item">Case Studies</Link>
-                    <Link to="/partnerships" className="link-item">Suggested Partnerships</Link>
-                    <Link to="/energy-types" className="link-item">Energy Types</Link>
-                  </div>
-                  <div className="column">
-                    <h3>Review</h3>
-                    <Link to="/quiz" className="link-item">Quiz</Link>
-                  </div>
-                </div>
-              </div>
-              <div style={{ position: 'absolute', left: 10, right: 10, height: 4, background: 'rgba(0,0,0,0.2)' }}></div>
-              </>
-              : null
-          }
-          { Page }
+          {isHome ? <div className="watermark-image"></div> : null}
+
+          {Page}
           <footer>Group 3 - LFE8031, QUB 2024</footer>
         </div>
       </div>
