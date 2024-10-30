@@ -10,7 +10,9 @@ export const CaseStudiesPage = () => {
         Transitioning to Clean Energy
       </h1>
 
-      <h2>IKEA</h2>
+      <h2>IKEA<sup>1</sup></h2>
+
+      <img src="pages/case-studies/ikea.png" width="150" />
 
       <ul>
         <li>
@@ -41,12 +43,11 @@ export const CaseStudiesPage = () => {
             </li>
           </ul>
         </li>
-        <li>
-          <strong>Reference:</strong> IKEA Sustainability Commitments
-        </li>
       </ul>
 
-      <h2>Google</h2>
+      <h2>Google<sup>2</sup></h2>
+      <img src="pages/case-studies/google.svg" width="150" />
+
       <ul>
         <li>
           <strong>Implementation:</strong> Google achieved 100% renewable energy
@@ -75,12 +76,11 @@ export const CaseStudiesPage = () => {
             </li>
           </ul>
         </li>
-        <li>
-          <strong>Reference:</strong> Google Sustainability Progress
-        </li>
       </ul>
 
-      <h2>Apple</h2>
+      <h2>Apple<sup>3</sup></h2>
+      <img src="pages/case-studies/apple.svg" width="150" />
+
       <ul>
         <li>
           <strong>Implementation:</strong> Apple transitioned to 100% renewable
@@ -109,12 +109,12 @@ export const CaseStudiesPage = () => {
             </li>
           </ul>
         </li>
-        <li>
-          <strong>Reference:</strong> <a target="_blank" href="https://www.apple.com/environment/">Apple Environmental Progress Report</a>
-        </li>
       </ul>
 
-      <h2>Amazon</h2>
+      <h2>Amazon<sup>4</sup></h2>
+
+      <img src="pages/case-studies/amazon.svg" width="150" />
+
       <ul>
         <li>
           <strong>Implementation:</strong> Amazon has committed to powering its global
@@ -143,10 +143,11 @@ export const CaseStudiesPage = () => {
             </li>
           </ul>
         </li>
-        <li><strong>Reference:</strong> Amazon Sustainability</li>
       </ul>
 
-      <h2>Microsoft</h2>
+      <h2>Microsoft<sup>5</sup></h2>
+      <img src="pages/case-studies/microsoft.svg" width="150" />
+
       <ul>
         <li>
           <strong>Implementation:</strong> Microsoft has been carbon-neutral since 2012 and
@@ -175,12 +176,12 @@ export const CaseStudiesPage = () => {
             </li>
           </ul>
         </li>
-        <li><strong>Reference:</strong> <a target="_blank" href="https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard">Microsoft Sustainability</a></li>
       </ul>
 
-      <h2>Conclusion</h2>
-      <p>For large businesses and organizations, transitioning to renewable energy is no longer just an environmental responsibility—it’s a strategic imperative. The benefits extend beyond cost savings to encompass enhanced brand reputation, regulatory compliance, energy independence, and increased stakeholder engagement. As the global economy continues to shift towards sustainability, organizations that lead the way in renewable energy adoption will not only contribute to the realization of SDG 7 but also ensure their long-term success.</p>
-
+      <h2>Conclusion and Path Forward</h2>
+      <p>For large businesses and organizations, transitioning to renewable energy is no longer just an environmental responsibility—it’s a strategic imperative. The benefits extend beyond cost savings to encompass enhanced brand reputation, regulatory compliance, energy independence, and increased stakeholder engagement. As the global economy continues to shift towards sustainability, organizations that lead the way in renewable energy adoption will not only contribute to the realization of SDG 7 but also ensure their long-term success
+        <sup>6, 7, 8</sup>.
+      </p>
 
       <Link to="/org-benefits">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
@@ -189,6 +190,19 @@ export const CaseStudiesPage = () => {
         &nbsp;
         Back to Organisation Benefits
       </Link>
+
+      <hr />
+
+    <ul className="unstyled references">
+        <li>[1] IKEA, Sustainability Commitments.https://www.ikea.com/us/en/this-is-ikea/sustainable-everyday/.</li>
+        <li>[2] Google, Sustainability Report : https://sustainability.google/.</li>
+        <li>[3] Apple Inc., Environmental Progress Report  https://www.apple.com/environment/.</li>
+        <li>[4] Amazon, Sustainability. https://sustainability.aboutamazon.com/.</li>
+        <li>[5] Microsoft, Emissions Impact Dashboard https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard.</li>       
+        <li>[6] International Renewable Energy Agency (IRENA) (2024), Renewable Power Generation Costs. Available at: https://www.irena.org/Statistics/View-Data-by-Topic/Costs/Renewable-Power-Generation-Costs Accessed: 21st october 2024</li>
+        <li>[7] Carbon Trust, Business Benefits of Renewable Energy https://www.carbontrust.com/what-we-do/advisory-and-assurance/business-benefits-of-renewable-energy</li>
+        <li>[8] World Energy Data, World Energy Data 2023  https://www.worldenergydata.org/.</li>
+    </ul>
 
     </div>
   );

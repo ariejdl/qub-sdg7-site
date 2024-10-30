@@ -7,7 +7,7 @@ export const OrgBenefitsPage = () => {
 
     <h1 className="heading anim-in">Organisational Benefits - Triple Bottom Line</h1>
 
-    <h2>Introduction</h2>
+    <h2>Overview of Clean Energy Transition Benefits</h2>
 
     <p>In today’s rapidly evolving energy landscape, businesses face increasing pressure to adopt sustainable practices. Transitioning from non-renewable to renewable energy sources is not only an environmental imperative but a strategic business decision. For organisations aiming to achieve SDG 7 (Affordable and Clean Energy), making the switch to renewable energy offers substantial financial, operational, and reputational benefits.</p>
 
