@@ -28,7 +28,8 @@ export const RecommendationsPage = () => {
       <li>Financially support NGOs with their energy use. Find out more on our partnership page.</li>
     </ul>
 
-    <img src="pages/recommendations/2.png" style={{ width: '70%', margin: 'auto', marginTop: 40, display: 'block' }} />
+    <img src="pages/recommendations/1.png" style={{ width: '70%', margin: 'auto', marginTop: 40, marginBottom: 0, display: 'block' }} />
+    <p className="figure-text">Figure 1: An image highlighting methods to be more energy efficient<sup>26</sup>.</p>
 
   <p>According to Social Cognitive Theory, enhancing knowledge through training and accessible resources as well as highlighting sustainable practices creates an environment within the workplace that can shape individual’s behaviours and foster positive attitudes toward energy-saving practices. It also helps to build self-efficacy. This is vital as staff who feel confident in their ability to implement sustainable measures are more likely to engage in energy-efficient behaviours<sup>11</sup>. If every member of your team can handle energy responsible your energy consumption levels will be reduced.</p>
 
@@ -77,9 +78,9 @@ export const RecommendationsPage = () => {
     <p><a target="_blank" href="https://www.investni.com/support-for-business/reduce-waste-and-save-energy/energy-efficiency-capital-grant">Energy Efficiency Capital Grant</a><sup>24</sup> - This grant helps businesses in Northern Ireland to reduce energy costs and build resilience through green efficiency. EECG provides up to £150,000 grant support to buy and install energy efficient equipment that reduces energy and carbon emissions. </p>
     <p><a target="_blank" href="https://www.electriccarscheme.com/?utm_source=g&utm_campaign=employee-benefits&utm_content=challenger-ad&gad_source=1&gclid=EAIaIQobChMIwMmRnvKXiQMVe5dQBh0XdiYzEAMYAiAAEgKdjvD_BwE">The Electric Car Salary Sacrifice Scheme</a><sup>25</sup> - Employees can save 30-60% on any electric car by reducing their salary in exchange for an electric car. This contributes towards making electric cars an affordable option for staff and helping them become net-zero on a personal level for commuting and personal journeys. </p>
 
-    <img src="pages/recommendations/1.png" style={{ width: '70%', margin: 'auto', marginTop: 40, display: 'block' }} />
-    <p className="figure-text">Review on Solar Space Heating - Cooling in Libyan Residential Buildings - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Figure-3-Energy-saving-pyramid-5_fig2_329876839 [accessed 27 Oct 2024]</p>
-
+    <img src="pages/recommendations/2.png" style={{ width: '70%', margin: 'auto', marginTop: 40, display: 'block' }} />
+    <p className="figure-text">Figure 2: An image showing the Energy Efficiency Pyramid<sup>7</sup>.</p>
+    
     <br /><br /><br />
     <button onClick={() => scrollTop()}>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up" viewBox="0 0 16 16">
@@ -116,6 +117,7 @@ export const RecommendationsPage = () => {
       <li>[23] Bike2Work Scheme (2024). Home Page. [online] Bike2Work Scheme. Available at: https://www.bike2workscheme.co.uk/ [Accessed 9 Oct. 2024].</li>
       <li>[24] Invest NI (2024). Energy Efficiency Capital Grant. [online] Invest Northern Ireland. Available at: https://www.investni.com/support-for-business/reduce-waste-and-save-energy/energy-efficiency-capital-grant [Accessed 20 Oct. 2024].</li>
       <li>[25] The Electric Car Scheme (2024). The Electric Car Scheme. [online] The Electric Car Scheme. Available at: https://www.electriccarscheme.com/?utm_source=g&utm_campaign=employee-benefits&utm_content=challenger-ad&gad_source=1&gclid=EAIaIQobChMIwMmRnvKXiQMVe5dQBh0XdiYzEAMYAiAAEgKdjvD_BwE [Accessed 19 Oct. 2024].</li>
+      <li>[26] City of Red Deer (2024). Energy - The City of Red Deer. [online] Reddeer.ca. Available at: https://www.reddeer.ca/city-services/environment-and-conservation/our-corporate-initiatives/emp/energy/ [Accessed 30 Oct. 2024].</li>
     </ul>
 
   </div>

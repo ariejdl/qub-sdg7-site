@@ -192,5 +192,7 @@ ul.unstyled {
 }
 
 .figure-text {
+  padding-top: 5px;
   color: #aaa;
+  word-break: break-all;
 }

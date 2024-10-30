@@ -6,14 +6,18 @@ export const GoalOverview = () => {
       <h1 className="heading anim-in">Goal Overview</h1>
 
      
-      <strong>"Sustainable development is development that meets the needs of the present, without compromising the ability of future generations to meet their own needs. <sup>1</sup>"</strong>
+      <strong>"Sustainable development is development that meets the needs of the present, without compromising the ability of future generations to meet their own needs<sup>1</sup>."</strong>
 
       <p>
-        The 2030 Agenda for Sustainable Development was adopted in 2015 by the United Nations Members. It offers a common blueprint for prosperity and peace for humans and the earth. At its core are 17 Sustainable Development Goals (SDGs). These are an urgent call for action to handle the three interconnected dimensions of sustainability: social, environmental and economic <sup>2</sup>.
-        <img src="pages/overview/4.png" width="200" style={{ float: 'left', padding: 20, paddingLeft: 0 }} />
+        The 2030 Agenda for Sustainable Development was adopted in 2015 by the United Nations Members. It offers a common blueprint for prosperity and peace for humans and the earth. At its core are 17 Sustainable Development Goals (SDGs). These are an urgent call for action to handle the three interconnected dimensions of sustainability: social, environmental and economic<sup>2</sup>.
+        <div  style={{ width:200, float: 'left', padding: 20, paddingLeft: 0 }} >
+          <img src="pages/overview/4.png" width="200"/>
+          <span className="figure-text"></span>
+        </div>
       </p>
+
       <p>
-        With less than six years till 2030, only 17% of them are on track. COVID-19, the cost-of-living crisis, international conflict and the climate crisis have created set backs but hope remains and more than ever you and your business need to take action to help realise these aspirations and create a more equal, prosperous and healthy future <sup>3</sup>.
+        With less than six years till 2030, only 17% of them are on track. COVID-19, the cost-of-living crisis, international conflict and the climate crisis have created set backs but hope remains and more than ever you and your business need to take action to help realise these aspirations and create a more equal, prosperous and healthy future<sup>3</sup>.
       </p>
       <p>The 17 SDGs are integrated and acknowledge that action in one area will either positively or negatively impact outcomes in others.</p>
       <p>Welcome to SDG7.online! You may be accessing this resource on a mobile device, computer or projection. These products, your business and even you rely on one thing. ENERGY.</p>
@@ -21,17 +25,21 @@ export const GoalOverview = () => {
       <p>Let's explore!</p>
 
       <strong>SDG7: Access to affordable, reliable, sustainable and modern energy for all.</strong>
-      <p>Sustainable Development Goal Seven, alongside SDG13, contains the least amount of targets out of all the 17 goals. However, it still is an essential priority and fundamental for our development <sup>4</sup>.
-      <img src="pages/overview/2.png" style={{ float: 'right', width: '35%', marginRight: 10, marginBottom: 20, padding: 15, paddingRight: 0 }} />
+      <p>Sustainable Development Goal Seven, alongside SDG13, contains the least amount of targets out of all the 17 goals. However, it still is an essential priority and fundamental for our development<sup>4</sup>.
+      
+      <div  style={{ float: 'right', width: '35%', marginRight: 10, marginBottom: 20, padding: 15, paddingRight: 0 }} >
+        <img src="pages/overview/2.png" style={{ width: '100%' }} />
+        <span className="figure-text">Figure 2: image taken from https://trackingsdg7.esmap.org/country/united-kingdom-great-britain-and-northern-ireland</span>
+      </div>
       </p>
-      <p>Since modern energy was launched over two centuries ago during the industrial revolution, it has underpinned human activities and has been a major factor for continuous economic growth globally since <sup>5</sup>. </p>
+      <p>Since modern energy was launched over two centuries ago during the industrial revolution, it has underpinned human activities and has been a major factor for continuous economic growth globally since<sup>5</sup>. </p>
       <p>From your lighting, mobility, manufacturing, agriculture to the digital age, energy plays a vital role in our lives and in meeting your business needs.</p>
-      <p>Despite the advancements and advantages fuelled by energy it has many negative implications. Our current reliance on fossil fuels for energy production is unsustainable and detrimental to the planet. Carbon dioxide (CO2) emissions globally from burning fossil fuels total about 34 billion tonnes (Gt) annually significantly contributing to climate change <sup>6</sup>. This means it is paramount to transform how we produce and consume energy and implement these changes with immediate effect. </p>
-      <p>The goal involves achieving universal access to electricity and clean cooking, doubling previous levels of efficiency improvements, and exponentially increasing the share of renewable energy in the global mix. Attaining SDG7 has a major impact on the environment, business processes, health and protecting people from environmental, economic and social risks such as the greatest threat of our time, climate change <sup>7</sup>. </p>
-      <p>Concerningly, The 2023 edition of Tracking SDG 7: The Energy Progress Report exclaims that efforts currently are not sufficient to achieve SDG7 by 2030 <sup>8</sup>.
+      <p>Despite the advancements and advantages fuelled by energy it has many negative implications. Our current reliance on fossil fuels for energy production is unsustainable and detrimental to the planet. Carbon dioxide (CO2) emissions globally from burning fossil fuels total about 34 billion tonnes (Gt) annually significantly contributing to climate change<sup>6</sup>. This means it is paramount to transform how we produce and consume energy and implement these changes with immediate effect. </p>
+      <p>The goal involves achieving universal access to electricity and clean cooking, doubling previous levels of efficiency improvements, and exponentially increasing the share of renewable energy in the global mix. Attaining SDG7 has a major impact on the environment, business processes, health and protecting people from environmental, economic and social risks such as the greatest threat of our time, climate change<sup>7</sup>. </p>
+      <p>Concerningly, The 2023 edition of Tracking SDG 7: The Energy Progress Report exclaims that efforts currently are not sufficient to achieve SDG7 by 2030<sup>8</sup>.
         
       </p>
-      <p>SDG7 is underpinned by three interlinking targets <sup>9</sup>:</p>
+      <p>SDG7 is underpinned by three interlinking targets<sup>9</sup>:</p>
 
       <h3>Target 7.1 - UNIVERSAL ACCESS TO MODERN ENERGY</h3>
       <p>By 2030, ensure universal access to affordable, reliable and modern energy services.</p>
@@ -41,7 +49,7 @@ export const GoalOverview = () => {
       <p>By 2030, double the global rate of improvement in energy efficiency.</p>
 
       <strong>Something to consider.</strong>
-      <p>Every energy unit of energy conserved through technological or behavioural conservation equates to a unit that does not need to be produced. Consequently, this reduces the energy requirements for renewables expansion and universal access provision, thereby reducing the burden of attaining them <sup>10</sup>.</p>
+      <p>Every energy unit of energy conserved through technological or behavioural conservation equates to a unit that does not need to be produced. Consequently, this reduces the energy requirements for renewables expansion and universal access provision, thereby reducing the burden of attaining them<sup>10</sup>.</p>
       
       <strong>The priorities for implementing SDG 7:</strong>
 
@@ -52,8 +60,8 @@ export const GoalOverview = () => {
       <p>By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States and landlocked developing countries, in accordance with their respective programmes of support.</p>
 
       <strong>Something to consider.</strong>
-      <p>If changes aren't effectively implemented, an estimated 660 million people will continue to lack access to electricity and approximately 1.8 billion will have to live without clean cooking fuels and technologies by 2030 <sup>11</sup>.</p>
-      <p>To achieve universal access to clean energy by 2030, robust policies are needed to accelerate electrification, enhance energy efficiency and increase investments in renewable energy. This, as well as producing progressive innovative solutions and supportive regulatory policies, are pivotal to advance towards SDG7 and meet climate objectives <sup>12</sup>.</p>
+      <p>If changes aren't effectively implemented, an estimated 660 million people will continue to lack access to electricity and approximately 1.8 billion will have to live without clean cooking fuels and technologies by 2030<sup>11</sup>.</p>
+      <p>To achieve universal access to clean energy by 2030, robust policies are needed to accelerate electrification, enhance energy efficiency and increase investments in renewable energy. This, as well as producing progressive innovative solutions and supportive regulatory policies, are pivotal to advance towards SDG7 and meet climate objectives<sup>12</sup>.</p>
 
 
       <table className="c72">
@@ -191,6 +199,7 @@ export const GoalOverview = () => {
       <br />
 
       <img src="pages/overview/3.png" style={{ width: '100%' }} />
+      <p className="figure-text">Figure 3: image taken from https://www.cso.ie/en/releasesandpublications/ep/p-sdg7/irelandsunsdgs2019-reportonindicatorsforgoal7affordableandcleanenergy/</p>
 
       <br /><br />
       <button onClick={() => scrollTop()}>
