@@ -7,16 +7,16 @@ export const RecommendationsPage = () => {
 
     <h1 className="heading anim-in">Recommendations, Localisation</h1>
 
-<p>SDG localisation refers to the process of turning the goals into reality at a localised level, whilst aligning with communities’ priorities and national frameworks <sup>1</sup>.</p>
-<p>Implementing appropriate tools and strategies at a local level is fundamental to the design and success of the 2030 Agenda for Sustainable Development. Localising the SDGs at the business level includes integrating the SDGs into an organisation’s culture, operations and strategies <sup>2</sup>.</p>
-<p>Transitioning to a reliable, clean, efficient, and sustainable energy system requires significant shifts in energy demand and supply. All businesses possess a responsibility to discover and implement energy efficient improvements, perform energy saving and reducing actions and source clean energy. As a business, you can make these commitments<sup>3</sup></p>
-<p>Energy efficiency means more output for input. Essentially, using less energy for the same output or producing more with the same energy input, and minimising energy waste.<sup>4</sup></p>
-<p>Improving your energy efficiency could increase the profitability of your business through cost savings, protection against potential future energy price increases, reputation enhancement and possibly enhancing productivity. Despite popular belief, improving energy efficiency does not mean giving up on employees' quality of life or reduction in productivity. Improving energy efficiency is based on production optimisation processes, responsible energy consumption, using renewable energy sources and recycling<sup>5</sup></p>
-<p>The journey to net-zero, decarbonisation and efficient energy use can be complicated. However, change is necessary, possible to action and business leaders can drive the change<sup>6</sup>.</p>
-<p>Companies can enhance energy efficiency by implementing a multifaceted approach as highlighted in the Energy Efficiency Pyramid <sup>7</sup>. Behavioural changes by an entire company is a cost-effective method whereby employees adopt straightforward habits to be conscious with their energy use like turning off and unplugging devices. Operational efficiency is a fundamental step, emphasising the optimisation of existing systems and processes. According to your budget and goals, you can invest in technology upgrades, such as LED lighting and energy-efficient HVAC systems, to reduce consumption further. Lastly, employing renewable energy sources to meet energy demands, reduces your carbon footprint <sup>8</sup>.</p>
-<p>Here are some key steps to effectively localize SDG7:</p>
+    <p>SDG localisation refers to the process of turning the goals into reality at a localised level, whilst aligning with communities’ priorities and national frameworks <sup>1</sup>.</p>
+    <p>Implementing appropriate tools and strategies at a local level is fundamental to the design and success of the 2030 Agenda for Sustainable Development. Localising the SDGs at the business level includes integrating the SDGs into an organisation’s culture, operations and strategies <sup>2</sup>.</p>
+    <p>Transitioning to a reliable, clean, efficient, and sustainable energy system requires significant shifts in energy demand and supply. All businesses possess a responsibility to discover and implement energy efficient improvements, perform energy saving and reducing actions and source clean energy. As a business, you can make these commitments<sup>3</sup></p>
+    <p>Energy efficiency means more output for input. Essentially, using less energy for the same output or producing more with the same energy input, and minimising energy waste.<sup>4</sup></p>
+    <p>Improving your energy efficiency could increase the profitability of your business through cost savings, protection against potential future energy price increases, reputation enhancement and possibly enhancing productivity. Despite popular belief, improving energy efficiency does not mean giving up on employees' quality of life or reduction in productivity. Improving energy efficiency is based on production optimisation processes, responsible energy consumption, using renewable energy sources and recycling<sup>5</sup></p>
+    <p>The journey to net-zero, decarbonisation and efficient energy use can be complicated. However, change is necessary, possible to action and business leaders can drive the change<sup>6</sup>.</p>
+    <p>Companies can enhance energy efficiency by implementing a multifaceted approach as highlighted in the Energy Efficiency Pyramid <sup>7</sup>. Behavioural changes by an entire company is a cost-effective method whereby employees adopt straightforward habits to be conscious with their energy use like turning off and unplugging devices. Operational efficiency is a fundamental step, emphasising the optimisation of existing systems and processes. According to your budget and goals, you can invest in technology upgrades, such as LED lighting and energy-efficient HVAC systems, to reduce consumption further. Lastly, employing renewable energy sources to meet energy demands, reduces your carbon footprint <sup>8</sup>.</p>
+    <p>Here are some key steps to effectively localize SDG7:</p>
 
-    <h3>Culture, Engagement and collaboration:</h3>
+    <h3>Culture, Engagement and Collaboration:</h3>
     <ul>
       <li>Encourage participation, create a space for your employees to suggest their tips for increasing energy efficiency.</li>
       <li>Promote best practice and expectations on how and when energy should be used</li>
@@ -28,7 +28,7 @@ export const RecommendationsPage = () => {
       <li>Financially support NGOs with their energy use. Find out more on our partnership page.</li>
     </ul>
 
-    <p>According to Social Cognitive Theory, enhancing knowledge through training and accessible resources as well as highlighting sustainable practices creates an environment within the workplace that can shape individual’s behaviours and foster positive attitudes toward energy-saving practices. It also helps to build self-efficacy. This is vital as staff who feel confident in their ability to implement sustainable measures are more likely to engage in energy-efficient behaviours <sup>11</sup>. If every member of your team can handle energy responsible your energy consumption levels will be reduced.</p>
+    <p>According to Social Cognitive Theory, enhancing knowledge through training and accessible resources as well as highlighting sustainable practices creates an environment within the workplace that can shape individual’s behaviours and foster positive attitudes toward energy-saving practices. It also helps to build self-efficacy. This is vital as staff who feel confident in their ability to implement sustainable measures are more likely to engage in energy-efficient behaviours <sup>11</sup>. If every member of your team can handle energy responsibly your energy consumption levels will be reduced.</p>
 
     <img src="pages/recommendations/2.png" style={{ width: '70%', margin: 'auto', marginTop: 40, display: 'block' }} />
 
@@ -68,7 +68,7 @@ export const RecommendationsPage = () => {
     <li>Driving habits to be more energy efficient: keep a steady pace and do not drive at excessive speeds; keep the windows closed and set the air conditioning to an average temperature of 21°C; and ensure that tires and the engine are properly maintained.<sup>21</sup></li>
   </ul>
 
-  <h3>Culture, Engagement and collaboration:</h3>
+  <h3>Culture, Engagement and Collaboration:</h3>
   <ul>
     <li>Encourage participation, create a space for your employees to suggest their tips for increasing energy efficiency.</li>
     <li>Collaborate with other businesses to share knowledge and resources related to sustainable energy practices.</li>

@@ -38,7 +38,7 @@ export const HomePage = () => {
 
 
       <p className="anim-in">
-        Sustainable Development Goal (SDG) No. 7: "Ensure access to affordable, reliable, sustainable, and modern energy for all"
+        Sustainable Development Goal (SDG) No. 7: "Ensure access to affordable, reliable, sustainable, and modern energy for all."
       </p>
 
       <p className="anim-in">

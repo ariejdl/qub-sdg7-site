@@ -112,7 +112,7 @@ const PageWrapper = ({ Page, notFound=false, secondary=false }) => {
                   className="heading"
                   style={{ marginTop: 0, marginBottom: 0 }}
                 >
-                  Affordable and clean energy, SDG7
+                  Affordable and Clean Energy, SDG7
                 </h1>
               </Link>
             </div>
