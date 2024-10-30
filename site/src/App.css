@@ -78,6 +78,10 @@
   pointer-events: none;
 }
 
+.main-links h3 {
+  margin-top: 2px;
+}
+
 .main-links.show {
   pointer-events: all;
 }
