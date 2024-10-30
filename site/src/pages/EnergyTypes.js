@@ -109,61 +109,61 @@ export const EnergyTypesPage = () => {
       <hr />
 
       <ul className="unstyled references">
-        <li>[1] Chen, C., Xu, R., Tong, D., Qin, X., Cheng, J., Liu, J., Zheng, B., Yan, L. and Zhang, Q. (2022) A striking growth of CO2 emissions from the global cement industry driven by new facilities in emerging countries. Environmental Research Letters, 17(4): 44-107 10.1088/1748-9326/ac48b5</li>
+        <li>[1] Chen, C., Xu, R., Tong, D., Qin, X., Cheng, J., Liu, J., Zheng, B., Yan, L. and Zhang, Q. (2022) A striking growth of CO2 emissions from the global cement industry driven by new facilities in emerging countries. <i>Environmental Research Letters</i>, 17(4): 44-107 10.1088/1748-9326/ac48b5</li>
 
-        <li>[2] Yan, W., Liu, B., He, J., Liang, H., Zhang, Z., Yuan, X., Liu, X. and Wang, Y. (2023) October. Real-Time Carbon Emission Monitoring System for Coal-Fired Power Plants. In International Conference on Wireless Power Transfer (pp. 456-462). Singapore: Springer Nature Singapore. https://doi.org/10.1007/978-981-97-0865-9_49</li>
+        <li>[2] Yan, W., Liu, B., He, J., Liang, H., Zhang, Z., Yuan, X., Liu, X. and Wang, Y. (2023) October. Real-Time Carbon Emission Monitoring System for Coal-Fired Power Plants. In <i>International Conference on Wireless Power Transfer</i> (pp. 456-462). Singapore: Springer Nature Singapore. https://doi.org/10.1007/978-981-97-0865-9_49</li>
           
-        <li>[3] Kao, X., Liu, Y., Wang, W., Wen, Q. and Zhang, P. (2024) The pressure of coal consumption on China's carbon dioxide emissions: A spatial and temporal perspective. Atmospheric Pollution Research, 15(8): 102-188 https://doi.org/10.1016/j.apr.2024.102188</li>
+        <li>[3] Kao, X., Liu, Y., Wang, W., Wen, Q. and Zhang, P. (2024) The pressure of coal consumption on China's carbon dioxide emissions: A spatial and temporal perspective. <i>Atmospheric Pollution Research</i>, 15(8): 102-188 https://doi.org/10.1016/j.apr.2024.102188</li>
           
-        <li>[4] Barrales-Ruiz, J. and Neudörfer, P. (2024) The oil price (Ir) relevance for global CO2 emissions. Energy Reports, 11(1): 3016-3021 https://doi.org/10.1016/j.egyr.2024.02.044</li>
+        <li>[4] Barrales-Ruiz, J. and Neudörfer, P. (2024) The oil price (Ir) relevance for global CO2 emissions. <i>Energy Reports, 11</i>(1): 3016-3021 https://doi.org/10.1016/j.egyr.2024.02.044</li>
           
-        <li>[5] Wang, X., Liu, B., He, S., Yuan, H., Ji, D., Qi, L., Song, Y. and Xu, W. (2024) An Analytic Hierarchy Process Method to Evaluate Environmental Impacts of In Situ Oil Shale Mining. Sustainability, 16(4): 13-63 https://doi.org/10.3390/su16041363</li>
+        <li>[5] Wang, X., Liu, B., He, S., Yuan, H., Ji, D., Qi, L., Song, Y. and Xu, W. (2024) An Analytic Hierarchy Process Method to Evaluate Environmental Impacts of In Situ Oil Shale Mining. <i>Sustainability, 16</i>(4): 13-63 https://doi.org/10.3390/su16041363</li>
           
-        <li>[6] Herwartz, H., Theilen, B. and Wang, S. (2024) Unraveling the structural sources of oil production and their impact on CO2 emissions. Energy Economics, 13(2): 107-488 https://doi.org/10.1016/j.eneco.2024.107488</li>
+        <li>[6] Herwartz, H., Theilen, B. and Wang, S. (2024) Unraveling the structural sources of oil production and their impact on CO2 emissions. <i>Energy Economics, 13(2)</i>: 107-488 https://doi.org/10.1016/j.eneco.2024.107488</li>
           
-        <li>[7] Deheri, A. and Carmel, S. (2024) Do fluctuations in global crude oil prices have an asymmetric effect on oil product pricing in India?. Economic Change and Restructuring, 57(1): 17 https://doi.org/10.1007/s10644-024-09599-9</li>
+        <li>[7] Deheri, A. and Carmel, S. (2024) Do fluctuations in global crude oil prices have an asymmetric effect on oil product pricing in India?. <i>Economic Change and Restructuring, 57</i>(1): 17 https://doi.org/10.1007/s10644-024-09599-9</li>
           
-        <li>[8] Gong, X. and Jia, G.Z. (2024) Exploring the Cross-Correlations between Tesla Stock Price, New Energy Vehicles and Oil Prices: A Multifractal and Causality Analysis. Fluctuation and Noise Letters, 2(6): 24-124 https://doi.org/10.1142/S021947752450024X</li>
+        <li>[8] Gong, X. and Jia, G.Z. (2024) Exploring the Cross-Correlations between Tesla Stock Price, New Energy Vehicles and Oil Prices: A Multifractal and Causality Analysis. <i>Fluctuation and Noise Letters</i>, 2(6): 24-124 https://doi.org/10.1142/S021947752450024X</li>
           
-        <li>[9] Cao, M., Wang, F., Ma, S., Geng, H. and Sun, K. (2024) Recent advances on greenhouse gas emissions from wetlands: mechanism, global warming potential, and environmental drivers. Environmental Pollution, 12(4): 200-204 https://doi.org/10.1016/j.envpol.2024.124204</li>
+        <li>[9] Cao, M., Wang, F., Ma, S., Geng, H. and Sun, K. (2024) Recent advances on greenhouse gas emissions from wetlands: mechanism, global warming potential, and environmental drivers. <i>Environmental Pollution</i>, 12(4): 200-204 https://doi.org/10.1016/j.envpol.2024.124204</li>
           
-        <li>[10] Li, N., Wang, J., Liu, R., Huang, H., Willerström, J. and Höök, M. (2024) Methane emissions from the natural gas industry in China–A systematically accounting based on the bottom-up approach. Gas Science and Engineering, 12(6): 205-346 https://doi.org/10.1016/j.jgsce.2024.205346</li>
+        <li>[10] Li, N., Wang, J., Liu, R., Huang, H., Willerström, J. and Höök, M. (2024) Methane emissions from the natural gas industry in China–A systematically accounting based on the bottom-up approach. <i>Gas Science and Engineering</i>, 12(6): 205-346 https://doi.org/10.1016/j.jgsce.2024.205346</li>
           
-        <li>[11] Resplandy, L., Hogikyan, A., Müller, J.D., Najjar, R.G., Bange, H.W., Bianchi, D., Weber, T., Cai, W.J., Doney, S.C., Fennel, K. and Gehlen, M. (2024) A synthesis of global coastal ocean greenhouse gas fluxes. Global biogeochemical cycles, 38(1): 78-103. https://doi.org/10.1029/2023GB007803</li>
+        <li>[11] Resplandy, L., Hogikyan, A., Müller, J.D., Najjar, R.G., Bange, H.W., Bianchi, D., Weber, T., Cai, W.J., Doney, S.C., Fennel, K. and Gehlen, M. (2024) A synthesis of global coastal ocean greenhouse gas fluxes. <i>Global biogeochemical cycles, 38</i>(1): 78-103. https://doi.org/10.1029/2023GB007803</li>
           
-        <li>[12] Rowland, S.T., Lebel, E.D., Goldman, J.S., Domen, J.K., Bilsback, K.R., Ruiz, A., Jaeger, J.M., Hill, L.A.L., Kashtan, Y.S., Finnegan, C. and Nicholson, M. (2024) Downstream natural gas composition across US and Canada: implications for indoor methane leaks and hazardous air pollutant exposures. Environmental Research Letters, 19(6): 64-164 10.1088/1748-9326/ad416c</li>
+        <li>[12] Rowland, S.T., Lebel, E.D., Goldman, J.S., Domen, J.K., Bilsback, K.R., Ruiz, A., Jaeger, J.M., Hill, L.A.L., Kashtan, Y.S., Finnegan, C. and Nicholson, M. (2024) Downstream natural gas composition across US and Canada: implications for indoor methane leaks and hazardous air pollutant exposures. <i>Environmental Research Letters, 19</i>(6): 64-164 10.1088/1748-9326/ad416c</li>
           
-        <li>[13] Lauvaux, T., Giron, C., Mazzolini, M., d’Aspremont, A., Duren, R., Cusworth, D., Shindell, D. and Ciais, P. (2022) Global assessment of oil and gas methane ultra-emitters. Science, 375(6580): 557-561 DOI: 10.1126/science.abj4351</li>
+        <li>[13] Lauvaux, T., Giron, C., Mazzolini, M., d’Aspremont, A., Duren, R., Cusworth, D., Shindell, D. and Ciais, P. (2022) Global assessment of oil and gas methane ultra-emitters. <i>Science</i>, 375(6580): 557-561 DOI: 10.1126/science.abj4351</li>
           
-        <li>[14] IRENA (2019), Renewable Energy Statistics 2019, The International Renewable Energy Agency, Abu Dhabi. https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/Jul/IRENA_Renewable_energy_statistics_2019.pdf</li>
+        <li>[14] IRENA (2019), Renewable Energy Statistics 2019, The International Renewable Energy Agency, <i>Abu Dhabi</i>. https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/Jul/IRENA_Renewable_energy_statistics_2019.pdf</li>
           
-        <li>[15] Lee, J. and Zhao, F. (2021) GWEC global wind report 2021. Global wind energy council, 15, p.16 https://gwec.net</li>
+        <li>[15] Lee, J. and Zhao, F. (2021) GWEC global wind report 2021. <i>Global wind energy council</i>, 15, p.16 https://gwec.net</li>
           
-        <li>[16] Clark, C.E., Barter, G., Shaler, K. and DuPont, B. (2022) Reliability‐based layout optimization in offshore wind energy systems. Wind Energy, 25(1), pp.125-148. https://doi.org/10.1002/we.2664</li>
+        <li>[16] Clark, C.E., Barter, G., Shaler, K. and DuPont, B. (2022) Reliability‐based layout optimization in offshore wind energy systems. <i>Wind Energy, 25</i>(1), pp.125-148. https://doi.org/10.1002/we.2664</li>
           
-        <li>[17] Sinclair, K., Copping, A.E., May, R., Bennet, F., Warnas, M., Perron, M., Elmqvist, Å. and DeGeorge, E. (2018) Resolving environmental effects of wind energy. Wiley Interdisciplinary Reviews: Energy and Environment, 7(4): 20-91. https://doi.org/10.1002/wene.291</li>
+        <li>[17] Sinclair, K., Copping, A.E., May, R., Bennet, F., Warnas, M., Perron, M., Elmqvist, Å. and DeGeorge, E. (2018) Resolving environmental effects of wind energy. <i>Wiley Interdisciplinary Reviews: Energy and Environment, 7</i>(4): 20-91. https://doi.org/10.1002/wene.291</li>
           
-        <li>[18] Green, R.E., Gill, E., Hein, C., Couturier, L., Mascarenhas, M., May, R., Newell, D. and Rumes, B. (2022) International assessment of priority environmental issues for land-based and offshore wind energy development. Global sustainability, 5(1): 17 https://doi.org/10.1017/sus.2022.14</li>
+        <li>[18] Green, R.E., Gill, E., Hein, C., Couturier, L., Mascarenhas, M., May, R., Newell, D. and Rumes, B. (2022) International assessment of priority environmental issues for land-based and offshore wind energy development. <i>Global sustainability, 5</i>(1): 17 https://doi.org/10.1017/sus.2022.14</li>
           
-        <li>[19] Allison, T.D., Diffendorfer, J.E., Baerwald, E.F., Beston, J.A., Drake, D., Hale, A.M., Hein, C.D., Huso, M.M., Loss, S.R., Lovich, J.E. and Strickland, M.D. (2019) Impacts to wildlife of wind energy siting and operation in the United States. Issues in Ecology, 21(1): 2-18 https://tethys.pnnl.gov/sites/default/files/publications/Allison_et_al_2019.pdf</li>
+        <li>[19] Allison, T.D., Diffendorfer, J.E., Baerwald, E.F., Beston, J.A., Drake, D., Hale, A.M., Hein, C.D., Huso, M.M., Loss, S.R., Lovich, J.E. and Strickland, M.D. (2019) Impacts to wildlife of wind energy siting and operation in the United States. <i>Issues in Ecology, 21</i>(1): 2-18 https://tethys.pnnl.gov/sites/default/files/publications/Allison_et_al_2019.pdf</li>
           
-        <li>[20] Le, T.T., Sharma, P., Bora, B.J., Tran, V.D., Truong, T.H., Le, H.C. and Nguyen, P.Q.P. (2024) Fueling the future: A comprehensive review of hydrogen energy systems and their challenges. International Journal of Hydrogen Energy, 5(4): 791-816</li>
+        <li>[20] Le, T.T., Sharma, P., Bora, B.J., Tran, V.D., Truong, T.H., Le, H.C. and Nguyen, P.Q.P. (2024) Fueling the future: A comprehensive review of hydrogen energy systems and their challenges. <i>International Journal of Hydrogen Energy, 5</i>(4): 791-816</li>
           
-        <li>[21] Tries, C., Hofmann, F. and Brown, T. (2022) October. Benefits from islanding hydrogen production in renewable energy systems. In 21st Wind & Solar Integration Workshop (WIW 2022) (Vol. 2022, pp. 294-301). IET 10.1109/EEM58374.2023.10161934</li>
+        <li>[21] Tries, C., Hofmann, F. and Brown, T. (2022) October. Benefits from islanding hydrogen production in renewable energy systems. In <i>21st Wind & Solar Integration Workshop (WIW 2022)</i> (Vol. 2022, pp. 294-301). IET 10.1109/EEM58374.2023.10161934</li>
           
-        <li>[22] Niermann, M., Timmerberg, S., Drünert, S. and Kaltschmitt, M. (2021) Liquid Organic Hydrogen Carriers and alternatives for international transport of renewable hydrogen. Renewable and Sustainable Energy Reviews, 13(5): 110-171 https://doi.org/10.1016/j.rser.2020.110171</li>
+        <li>[22] Niermann, M., Timmerberg, S., Drünert, S. and Kaltschmitt, M. (2021) Liquid Organic Hydrogen Carriers and alternatives for international transport of renewable hydrogen. <i>Renewable and Sustainable Energy Reviews, 13(5)</i>: 110-171 https://doi.org/10.1016/j.rser.2020.110171</li>
           
-        <li>[23] Moriarty, P. and Honnery, D. (2019) Prospects for hydrogen as a transport fuel. International Journal of Hydrogen Energy, 44(31): 16029-16037 https://doi.org/10.1016/j.ijhydene.2019.04.278</li>
+        <li>[23] Moriarty, P. and Honnery, D. (2019) Prospects for hydrogen as a transport fuel. <i>International Journal of Hydrogen Energy, 44</i>(31): 16029-16037 https://doi.org/10.1016/j.ijhydene.2019.04.278</li>
           
-        <li>[24] Oyekale, J., Petrollese, M., Tola, V. and Cau, G. (2020) Impacts of renewable energy resources on effectiveness of grid-integrated systems: Succinct review of current challenges and potential solution strategies. Energies, 13(18), p.4856 https://doi.org/10.3390/en13184856</li>
+        <li>[24] Oyekale, J., Petrollese, M., Tola, V. and Cau, G. (2020) Impacts of renewable energy resources on effectiveness of grid-integrated systems: Succinct review of current challenges and potential solution strategies. <i>Energies, 13</i>(18), p.4856 https://doi.org/10.3390/en13184856</li>
           
-        <li>[25] Albatayneh, A., Juaidi, A., Jaradat, M. and Manzano-Agugliaro, F. (2023) Future of electric and hydrogen cars and trucks: an overview. Energies, 16(7): 3230 https://doi.org/10.3390/en16073230</li>
+        <li>[25] Albatayneh, A., Juaidi, A., Jaradat, M. and Manzano-Agugliaro, F. (2023) Future of electric and hydrogen cars and trucks: an overview. <i>Energies, 16</i>(7): 3230 https://doi.org/10.3390/en16073230</li>
           
-        <li>[26] Wilson, C. (2018) Disruptive low-carbon innovations. Energy Research & Social Science, 3(7): 216-223 https://doi.org/10.1016/j.erss.2017.10.053</li>
+        <li>[26] Wilson, C. (2018) Disruptive low-carbon innovations. <i>Energy Research & Social Science, 3(7)</i>: 216-223 https://doi.org/10.1016/j.erss.2017.10.053</li>
           
-        <li>[27] Nolden, C., Barnes, J. and Nicholls, J. (2020) Community energy business model evolution: A review of solar photovoltaic developments in England. Renewable and Sustainable Energy Reviews, 12(2): 109-722 https://doi.org/10.1016/j.rser.2020.109722</li>
+        <li>[27] Nolden, C., Barnes, J. and Nicholls, J. (2020) Community energy business model evolution: A review of solar photovoltaic developments in England. <i>Renewable and Sustainable Energy Reviews, 12(2)</i>: 109-722 https://doi.org/10.1016/j.rser.2020.109722</li>
           
-        <li>[28] O'Shaughnessy, E., Forrester, S. and Barbose, G. (2023) Supply sunspots and shadows: Business siting patterns and inequitable rooftop solar adoption in the United States. Energy Research & Social Science, 9(6): 102-192 https://doi.org/10.1016/j.erss.2022.102920 </li>
+        <li>[28] O'Shaughnessy, E., Forrester, S. and Barbose, G. (2023) Supply sunspots and shadows: Business siting patterns and inequitable rooftop solar adoption in the United States. <i>Energy Research & Social Science, 9(6)</i>: 102-192 https://doi.org/10.1016/j.erss.2022.102920 </li>
       </ul>
     </div>
   );

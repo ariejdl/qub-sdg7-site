@@ -199,7 +199,7 @@ export const CaseStudiesPage = () => {
         <li>[3] Apple Inc., Environmental Progress Report  https://www.apple.com/environment/.</li>
         <li>[4] Amazon, Sustainability. https://sustainability.aboutamazon.com/.</li>
         <li>[5] Microsoft, Emissions Impact Dashboard https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard.</li>       
-        <li>[6] International Renewable Energy Agency (IRENA) (2024), Renewable Power Generation Costs. Available at: https://www.irena.org/Statistics/View-Data-by-Topic/Costs/Renewable-Power-Generation-Costs Accessed: 21st october 2024</li>
+        <li>[6] International Renewable Energy Agency (IRENA) (2024), <i>Renewable Power Generation Costs</i>. Available at: https://www.irena.org/Statistics/View-Data-by-Topic/Costs/Renewable-Power-Generation-Costs Accessed: 21st october 2024</li>
         <li>[7] Carbon Trust, Business Benefits of Renewable Energy https://www.carbontrust.com/what-we-do/advisory-and-assurance/business-benefits-of-renewable-energy</li>
         <li>[8] World Energy Data, World Energy Data 2023  https://www.worldenergydata.org/.</li>
     </ul>

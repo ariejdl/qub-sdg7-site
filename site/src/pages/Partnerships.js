@@ -230,8 +230,10 @@ export const PartnershipsPage = () => {
           October 2024).{" "}
         </li>
         <li>
-          [3] International Renewable Energy Agency (2022) Supporting countries
-          worldwide in their transition to a sustainable energy future.
+          [3] International Renewable Energy Agency (2022)<i>
+             Supporting countries
+            worldwide in their transition to a sustainable energy future.
+          </i>
           Available at: https://www.irena.org (Accessed 18 October 2024).
         </li>
         <li>
@@ -244,12 +246,14 @@ export const PartnershipsPage = () => {
           https://caricomdevelopmentfund.org/
         </li>
         <li>
-          [6] World Resources Institute (2024) New Analysis: !/4 of World’s Crops
-          Threatened by Water Risks. Available at: https://www.wri.org(Accessed
+          [6] World Resources Institute (2024) <i>
+            New Analysis: 1/4 of World’s Crops
+            Threatened by Water Risks
+          </i>. Available at: https://www.wri.org(Accessed
           10 October 2024).{" "}
         </li>
         <li>
-          [7] Renewable Energy Foundation (no date) About REF. Available at:
+          [7] Renewable Energy Foundation (no date) <i>About REF</i>. Available at:
           https://www.ref.org.uk/about-ref (Accessed 20 October 2024).{" "}
         </li>
       </ul>

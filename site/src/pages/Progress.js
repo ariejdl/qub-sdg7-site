@@ -66,7 +66,7 @@ export const ProgressPage = () => {
     <hr />
 
     <ul className="unstyled references">
-      <li>[1] United Nations, (2024) The Sustainable Development Report 2024. Available at: https://unstats.un.org/sdgs/report/2024/The-Sustainable-Development-Goals-Report-2024.pdf (Accessed: 06 October 2024).  p. 4., 22-23, 44.</li>
+      <li>[1] United Nations, (2024) <i>The Sustainable Development Report 2024</i>. Available at: https://unstats.un.org/sdgs/report/2024/The-Sustainable-Development-Goals-Report-2024.pdf (Accessed: 06 October 2024).  p. 4., 22-23, 44.</li>
       <li>[2] Luo, A. N. K., Soni, V., Keenan, B., Son, J., Taghartapeh, M.R., Morato, M.M., Poya, Y., Montanes R.M. (2023) Sustainable energy technologies for the Global Sounth: challenges and solutions towards achieving SDG 7. <i>Environmental Sciences</i>: Advances, 2(4), 570-585, p.571.doi: https://doi.org/10.1039/d2va00247g. </li>
       <li>[3] Azam, A (2024) ‘How Environmental Policy Stringency, Foreign Direct Investments, and Eco Innovation Supplement the Energy Transition: New Evidence from NICs’, <i>Sustainability</i>, vol. 16, no.17, pp. 3033. P.2. doi: https://doi.org/10.3390/su16073033 </li>
       <li>[4] Rasoulinezhad, E.; Taghizadeh-Hesary, F.; Sung, J.; Panthamit, N. (2020) Geopolitical risk and energy transition in Russia: Evidence from ARDL bounds testing method. Sustainability 2020, 12, 2689, p.11. Available at: https://www.mdpi.com/2071-1050/12/7/2689 (Accessed 10 October 2024).</li>
