@@ -6,6 +6,7 @@ export const ThreePillarsPage = () => {
     <h1 className="heading anim-in">3 Pillars</h1>
 
     <img src="pages/3-pillars/1.png" style={{ width: '100%' }} />
+    <p className="figure-text">Figure 1: Business and the three pillars, own representation</p>
 
     <hr />
 

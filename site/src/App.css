@@ -190,3 +190,7 @@ ul.unstyled {
 .subtitle img {
   margin-top: -5px;
 }
+
+.figure-text {
+  color: #ccc;
+}

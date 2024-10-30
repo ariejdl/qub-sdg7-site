@@ -25,11 +25,10 @@ export const ProgressPage = () => {
 
     <h3>How we are on track with SDG 7</h3>
 
-
     <br />
     <img src="pages/progress/1.png" style={{ width: '80%' }} />
 
-    <p style={{ color: '#ccc' }}>(Reference: own representation based on the United Nations, 2024, p. 44.)</p>
+    <p className="figure-text">Figure 1: own representation based on the United Nations, 2024, p. 44. </p>
 
     <br />
     <br />
@@ -46,6 +45,7 @@ export const ProgressPage = () => {
     <p>Before we can adapt to a fully clean energy source, we need to supply the electricity needs of many. Around 685 million People still have no access to electricity worldwide. Furthermore, around 2.1 billion individuals cook with polluting stoves and fuels instead of having the chance to use clean cooking. One of the most affected regions is the Sub-Saharan <sup>1</sup>.</p>
  
     <iframe src="https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity?tab=map" loading="lazy" style={{ 'width': '100%', 'height': 600, 'border': '0px none' }} allow="web-share; clipboard-write"></iframe>
+    <p className="figure-text">Figure 2: Our World in Data 2021, https://ourworldindata.org/sdgs/affordable-clean-energy</p>
 
     <h3>What we need to do to - Challenges</h3>
     <p>To reach the targets by 2030 it’s necessary to increase the global electricity access by 1.08 per cent annually. This requires, above all, the adoption of policies and frameworks to regulate and control the process. Furthermore, the number of people using clean energy for cooking needs to be improved. Decentralisation of energy production as well as the fair division is a prerequisite for ensuring access for all.<sup>2</sup> To achieve this, it’s necessary to reduce our dependence on fossil fuels and to increase the storage capacity of renewables as well as the costs of producing clean energy to make it affordable.<sup>2</sup>In general, more renewable energy must be generated to cover the needed demand.<sup>1</sup> </p>
