@@ -22,6 +22,7 @@ export const OrgBenefitsPage = () => {
     </ul>
 
     <iframe src="https://ourworldindata.org/grapher/solar-pv-prices-vs-cumulative-capacity?tab=chart" loading="lazy" style={{ 'width': '100%', 'height': 600, 'border': '0px none'}} allow="web-share; clipboard-write"></iframe>
+    <p className="figure-text">Figure 1: Our World in Data, https://ourworldindata.org/grapher/solar-pv-prices-vs-cumulative-capacity</p>
 
     <h3>Improved Energy Security</h3>
     <ul>

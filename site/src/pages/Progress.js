@@ -19,6 +19,7 @@ export const ProgressPage = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
     </iframe>
+    <p className="figure-text">International Renewable Energy Agency (2023) Tracking SDG 7: The Energy Progress Report, YouTube. Available at https://www.youtube.com/watch?v=fzujXqh4FnY (Accessed 18 October 2024).</p>
 
     <br />
     <br />
