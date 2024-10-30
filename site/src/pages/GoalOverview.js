@@ -12,7 +12,7 @@ export const GoalOverview = () => {
         The 2030 Agenda for Sustainable Development was adopted in 2015 by the United Nations Members. It offers a common blueprint for prosperity and peace for humans and the earth. At its core are 17 Sustainable Development Goals (SDGs). These are an urgent call for action to handle the three interconnected dimensions of sustainability: social, environmental and economic<sup>2</sup>.
         <div  style={{ width:200, float: 'left', padding: 20, paddingLeft: 0 }} >
           <img src="pages/overview/4.png" width="200"/>
-          <span className="figure-text"></span>
+          <span className="figure-text">Figure 1: taken from https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:SDG_7_tachometer_2024.png</span>
         </div>
       </p>
 
@@ -214,19 +214,19 @@ export const GoalOverview = () => {
 
       <ul className="unstyled references">
 
-        <li>[1] World Commission On Environment and Development (1987). Our Common Future. Suffolk: Oxford University Press.</li>
-        <li>[2] Estevão, J. and Lopes, J.D. (2024). SDG7 and renewable energy consumption: The influence of energy sources. Technological Forecasting and Social Change, [online] 198, p.123004. doi:https://doi.org/10.1016/j.techfore.2023.123004.</li>
-        <li>[3] United Nations (2023). With less than one fifth of targets on track, world is failing to deliver on promise of the Sustainable Development Goals, warns new UN report | United Nations. [online] United Nations. Available at: https://www.un.org/en/with-less-than-one-fifth-of-targets-on-track. [Accessed: 14 October 2024]</li>
+        <li>[1] World Commission On Environment and Development (1987). <i>Our Common Future</i>. Suffolk: Oxford University Press.</li>
+        <li>[2] Estevão, J. and Lopes, J.D. (2024). SDG7 and renewable energy consumption: The influence of energy sources. <i>Technological Forecasting and Social Change</i>, [online] 198, p.123004. doi:https://doi.org/10.1016/j.techfore.2023.123004.</li>
+        <li>[3] United Nations (2023). <i>With less than one fifth of targets on track, world is failing to deliver on promise of the Sustainable Development Goals, warns new UN report | United Nations</i>. [online] United Nations. Available at: https://www.un.org/en/with-less-than-one-fifth-of-targets-on-track. [Accessed: 14 October 2024]</li>
         <li>[4] McCollum, D., Gomez Echeverri, L., Riahi, K. and Parkinson, S., 2017. Sdg7: Ensure access to affordable, reliable, sustainable and modern energy for all.</li>
-        <li>[5] Gebara, C.H. and Laurent, A. (2023). National SDG-7 performance assessment to support achieving sustainable energy for all within planetary limits. Renewable and Sustainable Energy Reviews, 173, p.112934. doi:https://doi.org/10.1016/j.rser.2022.112934.</li>
-        <li>[6] World Nuclear Association (2024). Carbon Dioxide Emissions From Electricity - World Nuclear Association. [online] world-nuclear.org. Available at: https://world-nuclear.org/information-library/energy-and-the-environment/carbon-dioxide-emissions-from-electricity [Accessed 10 Oct. 2024].</li>
-        <li>[7] Chovancová, J. and Vavrek, R. (2022). On the Road to Affordable and Clean Energy: Assessing the Progress of European Countries Toward Meeting SDG 7. Polish Journal of Environmental Studies, 31(2). doi:https://doi.org/10.15244/pjoes/142479.</li>
+        <li>[5] Gebara, C.H. and Laurent, A. (2023). National SDG-7 performance assessment to support achieving sustainable energy for all within planetary limits. <i>Renewable and Sustainable Energy Reviews</i>, 173, p.112934. doi:https://doi.org/10.1016/j.rser.2022.112934.</li>
+        <li>[6] World Nuclear Association (2024). <i>Carbon Dioxide Emissions From Electricity - World Nuclear Association</i>. [online] world-nuclear.org. Available at: https://world-nuclear.org/information-library/energy-and-the-environment/carbon-dioxide-emissions-from-electricity [Accessed 10 Oct. 2024].</li>
+        <li>[7] Chovancová, J. and Vavrek, R. (2022). On the Road to Affordable and Clean Energy: Assessing the Progress of European Countries Toward Meeting SDG 7. <i>Polish Journal of Environmental Studies</i>, 31(2). doi:https://doi.org/10.15244/pjoes/142479.</li>
         <li>[8] United Nations (2023). SDG7 Tracking Report | United Nations. [online] United Nations. Available at: https://www.un.org/en/energy/page/sdg7-tracking-report [Accessed 17 Oct. 2024].</li>
         <li>[9] The Global Goals (2024). Goal 7: Affordable and clean energy. [online] The Global Goals. Available at: https://www.globalgoals.org/goals/7-affordable-and-clean-energy/.</li>
-        <li>[10] Fontana, L., Atella, V. and Kammen, D.M. (2013). Energy efficiency as a unifying principle for human, environmental, and global health. F1000Research, 2, p.101. doi:https://doi.org/10.12688/f1000research.2-101.v1.</li>
-        <li>[11] United Nations (2023b). Ensure Access to Affordable, Reliable, Sustainable and Modern Energy. [online] United Nations Sustainable Development. Available at: https://www.un.org/sustainabledevelopment/energy/.</li>
+        <li>[10] Fontana, L., Atella, V. and Kammen, D.M. (2013). Energy efficiency as a unifying principle for human, environmental, and global health. <i>F1000Research</i>, 2, p.101. doi:https://doi.org/10.12688/f1000research.2-101.v1.</li>
+        <li>[11] United Nations (2023b). <i>Ensure Access to Affordable, Reliable, Sustainable and Modern Energy</i>. [online] United Nations Sustainable Development. Available at: https://www.un.org/sustainabledevelopment/energy/.</li>
         <li>[12] Jayachandran, M., Gatla, R.K., Rao, K.P., Rao, G.S., Mohammed, S., Milyani, A.H., Azhari, A.A., Kalaiarasy, C. and Geetha, S. (2022b). Challenges in achieving sustainable development goal 7: Affordable and clean energy in light of nascent technologies. Sustainable Energy Technologies and Assessments, [online] 53(3), p.102692. doi:https://doi.org/10.1016/j.seta.2022.102692.</li>
-        <li>[13] United Nations (n.d.). SDG7 Targets & Indicators. [online] United Nations. Available at: https://www.un.org/en/energy/page/sdg7-targets-indicators [Accessed 12 Oct. 2024].</li>
+        <li>[13] United Nations (n.d.). <i>SDG7 Targets & Indicators</i>. [online] United Nations. Available at: https://www.un.org/en/energy/page/sdg7-targets-indicators [Accessed 12 Oct. 2024].</li>
 
       </ul>
     </div>
