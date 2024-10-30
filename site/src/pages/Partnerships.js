@@ -43,7 +43,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Environmental Defense Fund visit the{" "}
-        <a target="_blank" href="https://www.edf.org/">Website</a>
+        <a target="_blank" href="https://www.edf.org/">Website</a><sup>1</sup>.
       </p>
       <br />
 
@@ -69,7 +69,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Power for all visit the{" "}
-        <a target="_blank" href="https://www.powerforall.org/">Website</a>.
+        <a target="_blank" href="https://www.powerforall.org/">Website</a><sup>2</sup>.
       </p>
       <br />
 
@@ -94,7 +94,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Power for all visit the{" "}
-        <a target="_blank" href="https://www.irena.org/">Website</a>.{" "}
+        <a target="_blank" href="https://www.irena.org/">Website</a><sup>3</sup>.
       </p>
       <br />
 
@@ -120,7 +120,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support Renewable World visit the{" "}
-        <a target="_blank" href="https://renewable-world.org/">Website</a>.
+        <a target="_blank" href="https://renewable-world.org/">Website</a><sup>4</sup>.
       </p>
       <br />
 
@@ -146,7 +146,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support CARICOM Development Fund, visit the{" "}
-        <a target="_blank" href="https://caricomdevelopmentfund.org/">Website</a>.
+        <a target="_blank" href="https://caricomdevelopmentfund.org/">Website</a><sup>5</sup>.
       </p>
       <br />
 
@@ -176,7 +176,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support World Resources Institute, visit the{" "}
-        <a target="_blank" href="https://www.wri.org/">Website</a>.
+        <a target="_blank" href="https://www.wri.org/">Website</a><sup>6</sup>.
       </p>
       <br />
 
@@ -204,7 +204,7 @@ export const PartnershipsPage = () => {
 
       <p>
         To support renewable energy foundation, visit the{" "}
-        <a target="_blank" href="https://www.ref.org.uk/about-ref">Website</a>.
+        <a target="_blank" href="https://www.ref.org.uk/about-ref">Website</a><sup>7</sup>.
       </p>
       <br />
 
@@ -221,30 +221,35 @@ export const PartnershipsPage = () => {
 
       <ul className="unstyled references">
         <li>
-          Environmental Defense Fund (2024) Let’s go further. Available at:
+          [1] Environmental Defense Fund (2024) Let’s go further. Available at:
           https://www.edf.org (Accessed 20 October 2024).{" "}
         </li>
         <li>
-          Power for all (2024) Energy Access Has Declined for the First Time in
+          [2] Power for all (2024) Energy Access Has Declined for the First Time in
           Ten Years. Available at: https://www.powerforall.org (Accessed 18
           October 2024).{" "}
         </li>
         <li>
-          International Renewable Energy Agency (2022) Supporting countries
+          [3] International Renewable Energy Agency (2022) Supporting countries
           worldwide in their transition to a sustainable energy future.
           Available at: https://www.irena.org (Accessed 18 October 2024).
         </li>
         <li>
-          Renewable World (2024) Transforming Lives Through Clean Energy.
+          [4] Renewable World (2024) Transforming Lives Through Clean Energy.
           Available at: https://renewable-world.org (Accessed 15 October 2024).
         </li>
         <li>
-          World Resources Institute (2024) New Analysis: !/4 of World’s Crops
+          [5] CARICOM Development Fund (2024)
+          Available at: https://caricomdevelopmentfund.org/ (Accessed 30 October 2024).
+          https://caricomdevelopmentfund.org/
+        </li>
+        <li>
+          [6] World Resources Institute (2024) New Analysis: !/4 of World’s Crops
           Threatened by Water Risks. Available at: https://www.wri.org(Accessed
           10 October 2024).{" "}
         </li>
         <li>
-          Renewable Energy Foundation (no date) About REF. Available at:
+          [7] Renewable Energy Foundation (no date) About REF. Available at:
           https://www.ref.org.uk/about-ref (Accessed 20 October 2024).{" "}
         </li>
       </ul>
