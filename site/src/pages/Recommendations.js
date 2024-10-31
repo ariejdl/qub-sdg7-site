@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { scrollTop } from "../utils"
 
 /* can delete when finished */
@@ -5,7 +6,7 @@ export const RecommendationsPage = () => {
 
   return <div>
 
-    <h1 className="heading anim-in">Recommendations, Localisation</h1>
+    <h1 className="heading anim-in">Recommendations and Localisation</h1>
 
     <p>SDG localisation refers to the process of converting the goals into reality at a localised level, whilst aligning with communities’ and businesses’ priorities and national frameworks<sup>1</sup>.</p>
     <p>Implementing appropriate strategies and methods at a local level is fundamental to the design and success of the 2030 Agenda for Sustainable Development. Localising the SDGs at the business level involves integrating the 17 SDGs into an organisation’s culture, operations, production and strategies<sup>2</sup>.</p>
@@ -24,14 +25,14 @@ export const RecommendationsPage = () => {
       <li>Collaborate with other businesses to share knowledge and resources related to sustainable energy practices.</li>
       <li>Engage employees, customers, suppliers, and community members in discussions about your energy use and their expectations.</li>
       <li>Make responsible choices throughout your supply chain. Through strategically choosing suppliers across the supply chain, you can select those who utilise clean energy and minimise their energy consumption<sup>10</sup>.</li>
-      <li>Partner with a NGO or charity to work on specific energy issues in the local community or to support people in underdeveloped countries to contribute towards your community impact and charity involvement. Check out our partnership page.</li>
-      <li>Financially support NGOs with their energy use. Find out more on our partnership page.</li>
+      <li>Partner with a NGO or charity to work on specific energy issues in the local community or to support people in underdeveloped countries to contribute towards your community impact and charity involvement. Check out our <Link to="/partnerships">partnership page</Link>.</li>
+      <li>Financially support NGOs with their energy use. Find out more on our <Link to="/partnerships">partnership page</Link>.</li>
     </ul>
 
     <img src="pages/recommendations/1.png" style={{ width: '70%', margin: 'auto', marginTop: 40, marginBottom: 0, display: 'block' }} />
     <p className="figure-text">Figure 1: An image highlighting methods to be more energy efficient<sup>26</sup>.</p>
 
-  <p>According to Social Cognitive Theory, enhancing knowledge through training and accessible resources as well as highlighting sustainable practices creates an environment within the workplace that can shape individual’s behaviours and foster positive attitudes toward energy-saving practices. It also helps to build self-efficacy. This is vital as staff who feel confident in their ability to implement sustainable measures are more likely to engage in energy-efficient behaviours<sup>11</sup>. If every member of your team can handle energy responsible your energy consumption levels will be reduced.</p>
+  <p>According to Social Cognitive Theory, enhancing knowledge through training and accessible resources as well as highlighting sustainable practices creates an environment within the workplace that can shape individual’s behaviours and foster positive attitudes toward energy-saving practices. It also helps to build self-efficacy. This is vital as staff who feel confident in their ability to implement sustainable measures are more likely to engage in energy-efficient behaviours<sup>11</sup>. If every member of your team can handle energy responsibly your energy consumption levels will be reduced.</p>
 
   <strong>Assessing energy use<sup>12</sup>:</strong>
   <ul>
